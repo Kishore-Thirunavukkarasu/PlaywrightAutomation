@@ -1,0 +1,33 @@
+{
+  "name": "pheonixplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "cucumber-js --config cucumber.cjs",
+    "test": "npm run allure:clean && npm run cucumber && node scripts/generate-report.js && npm run allure:attach-traces && npm run allure:generate",
+    "test:smoke": "npm run allure:clean && npm run cucumber -- --tags @smoke && node scripts/generate-report.js && npm run allure:attach-traces && npm run allure:generate",
+    "htmlreport": "node scripts/serve-report.js",
+    "allure:clean": "node scripts/clean-allure.js",
+    "allure:attach-traces": "node scripts/attach-allure-traces.js",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allureopen": "allure open allure-report",
+    "allureserve": "allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@cucumber/html-formatter": "^23.0.0",
+    "@types/node": "^25.3.0",
+    "allure-commandline": "^2.36.0",
+    "allure-cucumberjs": "^3.4.5",
+    "cucumber-html-reporter": "^7.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

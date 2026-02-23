@@ -1,0 +1,98 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "tenant-management;create-tenant-for-the-admin-applicatrion-and-launch-the-application-using-chrome-browser",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Create tenant for the Admin Applicatrion and Launch the application using chrome browser",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 901215799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User launches admin application",
+            "match": {
+              "location": "src\\steps\\Common\\commonSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 641111600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 444992900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adminui",
+            "line": 9
+          },
+          {
+            "name": "@tenant",
+            "line": 9
+          },
+          {
+            "name": "@TNT001RegisterNewTenant",
+            "line": 9
+          },
+          {
+            "name": "@system",
+            "line": 9
+          },
+          {
+            "name": "@form",
+            "line": 9
+          },
+          {
+            "name": "@functional",
+            "line": 9
+          },
+          {
+            "name": "@smoke",
+            "line": 9
+          },
+          {
+            "name": "@reviewed",
+            "line": 9
+          },
+          {
+            "name": "@superadmin",
+            "line": 9
+          },
+          {
+            "name": "@updated",
+            "line": 9
+          },
+          {
+            "name": "@automated",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tenant-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Tenant Management",
+    "tags": [],
+    "uri": "src\\features\\TenantManagement\\tenant.feature"
+  }
+]

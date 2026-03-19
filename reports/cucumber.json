@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 901215799
+              "duration": 1280924999
             }
           },
           {
@@ -23,11 +23,50 @@
             "line": 11,
             "name": "User launches admin application",
             "match": {
-              "location": "src\\steps\\Common\\commonSteps.ts:4"
+              "location": "src\\steps\\Common\\commonSteps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 641111600
+              "duration": 1048096600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user enters username \"kishore.thirunavukkarasu@biworldwide.com\" and password \"Password@123\"",
+            "match": {
+              "location": "src\\steps\\Common\\commonSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165786499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user clicks on signin button",
+            "match": {
+              "location": "src\\steps\\Common\\commonSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106952600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to tenant page url",
+            "match": {
+              "location": "src\\steps\\Common\\commonSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025848399
             }
           },
           {
@@ -35,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 444992900
+              "duration": 1146642499
             }
           }
         ],

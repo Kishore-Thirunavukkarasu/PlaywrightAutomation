@@ -6,6 +6,8 @@
     "cucumber": "cucumber-js --config cucumber.cjs",
     "test": "npm run allure:clean && npm run cucumber && node scripts/generate-report.js && npm run allure:attach-traces && npm run allure:generate",
     "test:smoke": "npm run allure:clean && npm run cucumber -- --tags @smoke && node scripts/generate-report.js && npm run allure:attach-traces && npm run allure:generate",
+    "mcp:playwright": "playwright-mcp",
+    "mcp:playwright:headless": "playwright-mcp --headless",
     "htmlreport": "node scripts/serve-report.js",
     "allure:clean": "node scripts/clean-allure.js",
     "allure:attach-traces": "node scripts/attach-allure-traces.js",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "@cucumber/cucumber": "^12.6.0",
     "@cucumber/html-formatter": "^23.0.0",
+    "@playwright/mcp": "^0.0.68",
     "@types/node": "^25.3.0",
     "allure-commandline": "^2.36.0",
     "allure-cucumberjs": "^3.4.5",

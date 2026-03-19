@@ -31,6 +31,16 @@ Run all tests + generate report:
 npm test
 ```
 
+Run Playwright MCP server (headed):
+```bash
+npm run mcp:playwright
+```
+
+Run Playwright MCP server (headless):
+```bash
+npm run mcp:playwright:headless
+```
+
 Run smoke tests + generate report:
 ```bash
 npm run test:smoke
@@ -61,6 +71,21 @@ Dry run (step matching only):
 ```bash
 npx cucumber-js --config cucumber.cjs --dry-run
 ```
+
+## MCP (Playwright)
+- Added `@playwright/mcp` as a dev dependency.
+- Workspace MCP server config is in `.vscode/mcp.json`.
+- The configured server runs as `npx playwright-mcp --headless` over stdio.
+- If your MCP client supports workspace config, it should auto-detect the `playwright` server.
+
+After running `npx playwright init-agents --loop=vscode`, the following files are added/updated:
+- `specs/README.md` — directory for test plans
+- `seed.spec.ts` — default environment seed file
+- `.github/agents/playwright-test-generator.agent.md` — agent definition
+- `.github/agents/playwright-test-healer.agent.md` — agent definition
+- `.github/agents/playwright-test-planner.agent.md` — agent definition
+- `.vscode/mcp.json` — MCP configuration
+- `.github/workflows/copilot-setup-steps.yml` — GitHub Copilot setup steps
 
 ## Troubleshooting (Allure exit code 1)
 - Use the current script names exactly:

@@ -5,7 +5,7 @@ import { TenantPage } from '../../pages/Admin/tenant';
 const tenantPage = new TenantPage();
 
 Given("User launches admin application", async function () {
-    await this.page.goto("https://qa-admin.phoenix-np-in.channelsmart.net/login/");
+    await this.page.goto("http://testing.com");
 });
 
 When('user enters username {string} and password {string}', async function (username: string, password: string) {

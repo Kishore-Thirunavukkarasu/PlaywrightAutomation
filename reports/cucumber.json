@@ -6,7 +6,7 @@
         "description": "",
         "id": "tenant-management;create-tenant-for-the-admin-applicatrion-and-launch-the-application-using-chrome-browser",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 4,
         "name": "Create tenant for the Admin Applicatrion and Launch the application using chrome browser",
         "steps": [
           {
@@ -14,59 +14,59 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1280924999
+              "duration": 1580978599
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
+            "line": 5,
             "name": "User launches admin application",
             "match": {
-              "location": "src\\steps\\Common\\commonSteps.ts:7"
+              "location": "src\\steps\\Common\\commonSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1048096600
+              "duration": 1204194499
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
-            "name": "user enters username \"kishore.thirunavukkarasu@biworldwide.com\" and password \"Password@123\"",
+            "line": 6,
+            "name": "user enters username and password",
             "match": {
-              "location": "src\\steps\\Common\\commonSteps.ts:11"
+              "location": "src\\steps\\Common\\commonSteps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 165786499
+              "duration": 178817399
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 13,
+            "line": 7,
             "name": "user clicks on signin button",
             "match": {
-              "location": "src\\steps\\Common\\commonSteps.ts:16"
+              "location": "src\\steps\\Common\\commonSteps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 106952600
+              "duration": 73947200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 8,
             "name": "user should be redirected to tenant page url",
             "match": {
-              "location": "src\\steps\\Common\\commonSteps.ts:21"
+              "location": "src\\steps\\Common\\commonSteps.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1025848399
+              "duration": 915066500
             }
           },
           {
@@ -74,54 +74,54 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1146642499
+              "duration": 1105479800
             }
           }
         ],
         "tags": [
           {
             "name": "@adminui",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@tenant",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@TNT001RegisterNewTenant",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@system",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@form",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@functional",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@smoke",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@reviewed",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@superadmin",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@updated",
-            "line": 9
+            "line": 3
           },
           {
             "name": "@automated",
-            "line": 9
+            "line": 3
           }
         ],
         "type": "scenario"

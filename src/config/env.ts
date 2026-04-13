@@ -1,5 +1,12 @@
+import * as dotenv from 'dotenv';
+
+// Load environment variables from .env file and override existing OS env vars
+dotenv.config({ override: true });
+
 export const config = {
-  baseUrl: process.env.BASE_URL || 'https://example.com',
+  baseUrl: process.env.BASE_URL,
+  username: process.env.USERNAME,
+  password: process.env.PASSWORD,
 
   headless: process.env.HEADLESS == 'false',
 

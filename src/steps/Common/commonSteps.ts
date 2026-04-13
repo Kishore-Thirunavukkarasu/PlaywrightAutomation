@@ -1,16 +1,22 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import assert from 'node:assert/strict';
 import { TenantPage } from '../../pages/Admin/tenant';
+import { config } from '../../config/env';
 
 const tenantPage = new TenantPage();
 
 Given("User launches admin application", async function () {
-    await this.page.goto("http://testing.com");
+    await this.page.goto(config.baseUrl);
 });
 
-When('user enters username {string} and password {string}', async function (username: string, password: string) {
-    await this.page.locator(tenantPage.usernameInput).first().fill(username);
-    await this.page.locator(tenantPage.passwordInput).first().fill(password);
+When('user enters username and password', async function () {
+    const usernameLocator = this.page.locator(tenantPage.usernameInput).first();
+    await usernameLocator.waitFor({ state: 'visible', timeout: 15000 });
+    await usernameLocator.fill(config.username);
+
+    const passwordLocator = this.page.locator(tenantPage.passwordInput).first();
+    await passwordLocator.waitFor({ state: 'visible', timeout: 15000 });
+    await passwordLocator.fill(config.password);
 });
 
 When('user clicks on signin button', async function () {

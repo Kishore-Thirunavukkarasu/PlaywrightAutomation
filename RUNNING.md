@@ -116,6 +116,28 @@ In Allure scenario Description, use:
 
 Note: The Allure `Links` section is intentionally removed for trace links; trace actions are shown only in Description.
 
+## AI Self-Healing Locators
+The framework features intelligent self-healing for broken Playwright locators using Google's Gemini AI (`gemini-flash-latest`), located in `src/helper/geminiHeal.ts`.
+
+**Prerequisites & Setup:**
+To use the self-healing feature, you must install the Google AI SDK:
+```bash
+npm install @google/generative-ai
+```
+You must also have a valid API key exposed in your environment variables:
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
+
+**How it works during a test run:**
+1. **Short-Circuit Try:** The `heal(locator, page)` function attempts to find the element normally with a brief timeout (3 seconds). If found, the test proceeds with zero overhead.
+2. **Failure & DOM Capture:** If the element breaks (e.g., a changed ID), Playwright throws an error. The script catches this and captures the active browser page's current HTML.
+3. **AI Diagnosis:** The broken selector and captured HTML are sent directly to the Gemini AI API. The AI is specifically asked to provide a valid CSS or XPath replacement string (avoiding JS methods and indexes).
+4. **Validation:** A new Playwright locator is built using the AI's suggested string and validated against the live browser. If it works, the test continues without failing.
+5. **Caching & Auto-Replacement:**
+   - **Cache:** The successful fix is stored in-memory so subsequent calls in the same run heal instantly without hitting the AI again.
+   - **Auto-Update Source Code:** The framework recursively scans the `.ts` files inside the `src` folder, locates the exact string of the originally broken selector, and permanently overwrites the physical file on disk with the healed locator. This means it only ever heals a specific locator *once*; from then on, the framework is permanently fixed!
+
 ## Key files
 - `cucumber.ts` — Cucumber config (default profile)
 - `cucumber.cjs` — TS config loader for Cucumber

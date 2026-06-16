@@ -1,0 +1,17 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C338,code,alphanumeric,3,201,success
+C311,name,alphabets,20,201,success
+C317,name,alphabets,150,201,success
+C321,description,alphabets,20,201,success
+C322,description,empty,zero,201,success
+C330,description,special char,150,201,success
+C328,description,alphanumeric,150,201,success
+C324,description,numeric,150,201,success
+C326,description,alphabets,4000,201,success
+C341,hierarchyId,hierarchyId,36,201,success
+C351,type,alphabets,7,201,success
+C354,type,alphabets,150,201,success
+C356,type,numeric,150,201,success
+C358,type,alphanumeric,151,201,success
+C361,programId,programId,36,201,success
+C371,level,level,1,201,success

@@ -1,0 +1,6 @@
+s.no, workpackage, test scenario,automated, time (mins), status
+1, tenant, create tenant,yes,2
+2, tenant, configure cms at tenant,yes,2
+3, tenant, create program, yes,2
+4, tenant, update program, yes,2
+5, 

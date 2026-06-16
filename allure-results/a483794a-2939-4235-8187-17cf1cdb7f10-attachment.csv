@@ -1,0 +1,4 @@
+testid,parameter,value,responsecode,responsestatus
+C2100,dynamicaudienceId,empty,400,error
+C2101,dynamicaudienceId,null,400,error
+C2102,dynamicaudienceId,invalid,400,error

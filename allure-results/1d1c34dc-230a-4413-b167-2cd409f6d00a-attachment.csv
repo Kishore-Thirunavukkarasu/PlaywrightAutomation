@@ -1,0 +1,13 @@
+testid,parameter,valuetype,length,response code,responsestatus
+C305,mobile,alphabets,11,200,success
+C306,mobile,alphabets,10,400,error
+C307,mobile,empty,empty,400,error
+C308,mobile,null,null,400,error
+C309,mobile,existing,existing,200,success
+C309_2,mobile,numeric,10,400,error
+C309_3,mobile,numeric,11,400,error
+C309_4,mobile,alphanumeric,9,400,error
+C309_3,mobile,alphanumeric,11,400,error
+C309_5,mobile,special char,10,200,success
+C309_6,mobile,special char,11,400,error
+C309_7,mobile,accepted special char Phone,10,200,success

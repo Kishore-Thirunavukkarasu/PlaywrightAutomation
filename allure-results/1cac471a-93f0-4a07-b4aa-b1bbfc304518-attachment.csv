@@ -1,0 +1,16 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C117,code,alphanumeric,3,201,success
+C121,website,website,200,201,success
+C132,address,alphabets,200,201,success
+C136,address,alphabets,200,201,success
+C139,address,numeric,200,201,success
+C141,address,alphanumeric,200,201,success
+C144,tenantURL,tenantURL,200,201,success
+C155,state,alphabets,49,201,success
+C159,state,alphabets,200,201,success
+C165,city,alphabets,49,201,success
+C169,city,alphabets,200,201,success
+C175,country,alphabets,49,201,success
+C179,country,alphabets,200,201,success
+C185,zipCode,numeric,6,201,success
+C198,currency,alphabets,3,201,success

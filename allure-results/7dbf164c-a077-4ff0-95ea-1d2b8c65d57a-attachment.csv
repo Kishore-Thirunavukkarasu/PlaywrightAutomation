@@ -1,0 +1,8 @@
+parameter,value,length
+name,string,36
+fathername,string,3
+mobilenumber,number,20
+email,string,20
+address,string,36
+city,string,36
+country,string,36

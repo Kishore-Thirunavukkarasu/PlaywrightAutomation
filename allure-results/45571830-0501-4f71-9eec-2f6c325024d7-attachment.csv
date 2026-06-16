@@ -1,0 +1,16 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C004,buttoncolor,alphabets,255,201,success
+C005,buttoncolor,numeric,255,201,success
+C007,buttoncolor,alphanumeric,256,201,success
+C008,buttoncolor,alphanumeric,254,201,success
+C009,buttoncolor,existing,existing,201,success
+C014,configkey,alphabets,255,201,success
+C015,configkey,numeric,255,201,success
+C011,configkey,uuid,255,201,success
+C017,configkey,alphanumeric,256,201,success
+C018,configkey,alphanumeric,254,201,success
+C021,configvalue,uuid,255,201,success
+C031,configtype,uuid,255,201,success
+C034,configtype,alphabets,255,201,success
+C035,configtype,numeric,255,201,success
+C0256,configtype,alphanumeric,256,201,success

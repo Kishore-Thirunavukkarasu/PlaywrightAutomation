@@ -1,0 +1,6 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-AdditionalCriteria RuleCriteria attributeDetails hasExternalApi,boolean,-,201,success
+C2108,Rules-AdditionalCriteria RuleCriteria attributeDetails hasExternalApi,empty,empty,400,error
+C2109,Rules-AdditionalCriteria RuleCriteria attributeDetails hasExternalApi,null,null,400,error
+C2110,Rules-AdditionalCriteria RuleCriteria attributeDetails hasExternalApi,alphabets,1,400,error
+C2111,Rules-AdditionalCriteria RuleCriteria attributeDetails hasExternalApi,numeric,1,400,error

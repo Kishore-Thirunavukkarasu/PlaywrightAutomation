@@ -1,0 +1,7 @@
+testid,parameter,valuetype,responsecode,responsestatus
+C022,config,object,201,success
+C023,config,string,400,error
+C024,config,number,400,error
+C025,config,boolean,400,error
+C026,config,null,400,error
+C027,config,empty,400,error

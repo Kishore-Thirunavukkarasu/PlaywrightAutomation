@@ -1,0 +1,8 @@
+{
+  "promotionname": "Invoice Claim Promotion",
+  "promotionCode": "INVC",
+  "promotiondescription": "Created through automation for Invoice Claim Promotion",
+  "promotiontag": "Tag1",
+  "promotionprimarybillcode": "Aban",
+  "promotionsecondarybillcode": "Awro"
+}

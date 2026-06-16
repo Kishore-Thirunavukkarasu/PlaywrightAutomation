@@ -1,0 +1,11 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C2248,id,invalid,200,success,0
+C2250,id,empty,200,success,10
+C2251,code,valid,200,success,1
+C2254,code,empty,200,success,10
+C2255,name,valid,200,success,1
+C2258,name,empty,200,success,10
+C2263,type,valid,200,success,1
+C2266,type,empty,200,success,10
+C2259,description,valid,200,success,1
+C2262,description,empty,200,success,10

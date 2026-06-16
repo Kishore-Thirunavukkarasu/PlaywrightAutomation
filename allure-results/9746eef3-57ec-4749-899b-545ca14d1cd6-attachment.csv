@@ -1,0 +1,9 @@
+field,fieldtype,response
+configName,alphanumeric,successfully
+Coupon Category,alphanumeric,successfully
+Pattern,alphanumeric,successfully
+Length,alphanumeric,successfully
+Starting Number,alphanumeric,successfully
+Coupon type,alphanumeric,successfully
+Suffix code,alphanumeric,successfully
+Prefix code,alphanumeric,successfully

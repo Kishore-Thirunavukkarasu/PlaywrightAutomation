@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,status,records
+C340,email,valid,200,success,1
+C341,email,invalid,400,error,0
+C342,email,empty,400,error,0
+C343,email,null,400,error,0

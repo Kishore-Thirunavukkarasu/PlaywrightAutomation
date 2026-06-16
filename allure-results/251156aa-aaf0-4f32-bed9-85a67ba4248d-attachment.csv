@@ -1,0 +1,5 @@
+testid,query parameter,valuetype,responsecode,responsestatus,records
+C1423,countrycode,valid,200,success,more than one
+C1424,countrycode,invalid,400,error,0
+C1425,countrycode,null,400,error,0
+C1426,countrycode,empty,400,error,not present

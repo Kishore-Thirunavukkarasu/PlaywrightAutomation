@@ -1,0 +1,11 @@
+invoiceNumber,quantity,value,salesDate,buyingOrganisation,productId,salesType,origin,sellingOrganisation,userName,recordType
+jquVA,100,1000,2026-04-30,Head Organization,Car,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT01,Add
+FNfGD,200,2000,2026-04-30,Head Organization,Bus,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT02,Add
+XHWSY,300,3000,2026-04-30,Head Organization,Bike,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT03,Add
+JtJdo,400,4000,2026-04-30,Head Organization,Cycle,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT04,Add
+FylAS,500,5000,2026-04-30,Head Organization,Van,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT11,Add
+nGxre,600,6000,2026-04-30,Head Organization,Car,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT12,Add
+lIvOB,700,7000,2026-04-30,Head Organization,Bus,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT13,Add
+XsSwV,800,8000,2026-04-30,Head Organization,Bike,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT21,Add
+usXKi,900,9000,2026-04-30,Head Organization,Cycle,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT31,Add
+umtGn,1000,10000,2026-04-30,Head Organization,Van,Org,nonEvidenceBasedClaim,Zenith,Apr30AOT41,Add

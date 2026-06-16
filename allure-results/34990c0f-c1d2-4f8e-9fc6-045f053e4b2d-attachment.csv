@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,reponsestatus,records
+C1333,tenantid,valid,200,success,1
+C1334,tenantid,blank,400,error,0
+C1335,tenantid,null,400,error,0
+C1336,tenantid,invalid,400,error,0

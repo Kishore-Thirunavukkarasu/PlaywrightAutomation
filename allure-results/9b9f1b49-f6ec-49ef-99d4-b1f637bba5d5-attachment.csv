@@ -1,0 +1,10 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C642,description,alphabets,200,200,success
+C643,description,alphanumeric,200,200,success
+C644,description,numeric,200,200,success
+C645,description,alphanumeric special char,200,200,success
+C646,description,existing,existing,200,success
+C647,description,alphabets,4000,200,success
+C648,domainUrl,alphabets,49,200,success
+C649,domainUrl,alphabets,255,200,success
+C650,domainUrl,existing,existing,200,success

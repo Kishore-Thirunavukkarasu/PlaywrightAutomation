@@ -1,0 +1,28 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2267,code,numeric,3,200,success
+C2268,code,numeric,4,200,success
+C2269,code,numeric,2,200,success
+C2270,code,alphabets,3,200,success
+C2272,code,special char,3,400,error
+C2273,code,null,null,400,error
+C2274,code,empty,empty,400,error
+C2277,name,alphabets,256,400,error
+C2278,name,empty,empty,400,error
+C2279,name,null,null,400,error
+C2281,name,special char,20,400,error
+C2282,name,alphanumeric,25,400,error
+C2283,name,numeric,25,400,error
+C2285,name,boolean,boolean,400,error
+C2290,description,empty,empty,200,success
+C2291,description,null,null,400,error
+C2292,description,alphabets,4001,400,error
+C2295,description,alphanumeric,4001,400,error
+C2296,description,boolean,boolean,400,error
+C2298,type,empty,empty,400,error
+C2299,type,null,null,400,error
+C2300,type,alphabets,6,400,error
+C2301,type,numeric,6,400,error
+C2302,type,boolean,boolean,400,error
+C2303,type,existing,existing,200,success
+C2304,type,special char,6,400,error
+C2305,type,alphanumeric,6,400,error

@@ -1,0 +1,8 @@
+testid,parameter1,value1,parameter2,value2,responsecode,status,records
+C363,id,valid,firstname,valid,200,success,1
+C364,id,invalid,firstname,valid,400,error,0
+C365,id,empty,firstname,valid,400,error,0
+C366,id,null,firstname,valid,400,error,0
+C367,id,valid,firstname,invalid,400,error,0
+C368,id,valid,firstname,empty,400,error,0
+C369,id,valid,firstname,null,400,error,0

@@ -1,0 +1,7 @@
+{
+  "model": "organizations",
+  "operation": "create",
+  "schemaName": "default",
+  "payload": "{\"name\":\"Than mid f\",\"description\":\"Enclavedre\",\"code\":\"Cod onceso\",\"phone\":\"Last uh-hu\",\"email\":\"Brr firsth\",\"orgType\":\"Belowdevot\",\"active\":\"true\",\"brandShaktee\":\"false\",\"brandKosh\":\"false\",\"brandAstru\":\"false\",\"programId\":\"5aa628f4-65aa-49a1-8e3b-bec791e38521\"}",
+  "id": "e4fe04e3-f342-41a0-8870-545b5207cf67"
+}

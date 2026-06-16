@@ -8,6 +8,7 @@ export default {
         paths: ['src/features/**/*.feature'],
         format: [
             'progress',
+            'summary',
             'json:reports/cucumber.json',
             'allure-cucumberjs/reporter'
         ]

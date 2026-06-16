@@ -1,0 +1,8 @@
+testid,parameter,value,length,responsecode,responsestatus
+C1618,expiryDate,alphabets,254,201,success
+C1619,expiryDate,alphabets,256,400,error
+C1620,expiryDate,empty,empty,400,error
+C1621,expiryDate,null,null,400,error
+C1622,expiryDate,boolean,true,201,success
+C1623,expiryDate,numeric,10,400,error
+C1624,expiryDate,existing,existing,400,error

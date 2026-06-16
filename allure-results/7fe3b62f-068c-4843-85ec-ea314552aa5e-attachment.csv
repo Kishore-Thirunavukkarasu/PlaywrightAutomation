@@ -1,0 +1,22 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C213,id,empty,200,success,10
+C214,name,valid,200,success,1
+C217,name,empty,200,success,10
+C218,code,valid,200,success,1
+C221,code,empty,200,success,10
+C222,website,valid,200,success,1
+C225,website,empty,200,success,10
+C226,address,valid,200,success,1
+C229,address,empty,200,success,10
+C230,tenantURL,valid,200,success,1
+C233,tenantURL,empty,200,success,10
+C234,state,valid,200,success,1
+C237,state,empty,200,success,10
+C238,city,valid,200,success,1
+C241,city,empty,200,success,10
+C242,zipCode,valid,200,success,1
+C245,zipCode,empty,200,success,10
+C246,currency,valid,200,success,1
+C249,currency,empty,200,success,10
+C250,country,valid,200,success,1
+C253,country,empty,200,success,10

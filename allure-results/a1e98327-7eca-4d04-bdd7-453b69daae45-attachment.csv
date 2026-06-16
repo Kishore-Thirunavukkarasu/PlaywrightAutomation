@@ -1,0 +1,15 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2205,code,alphanumeric,3,201,success
+C2214,name,alphabets,255,201,success
+C2216,name,alphanumeric,25,201,success
+C2218,name,existing,existing,201,success
+C2220,description,alphabets,200,201,success
+C2221,description,alphanumeric,200,201,success
+C2222,description,numeric,200,201,success
+C2223,description,alphanumeric special char,200,201,success
+C2224,description,empty,empty,201,success
+C2225,description,null,null,201,success
+C2227,description,existing,existing,201,success
+C2228,description,alphabets,4000,201,success
+C2231,type,static,6,201,success
+C2240,rules,null,null,400,error

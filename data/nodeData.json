@@ -1,0 +1,5 @@
+{
+    "copydata":{
+        "remoteconnection":"postgres://cs_postgresql:83Nks5EmGDzD6ZXJAqKxbw7@channelsmart-postgresql-one.ccitkjqtjrnm.ap-south-1.rds.amazonaws.com:5432/1702968122751_TataSteel"
+    }
+}

@@ -1,0 +1,64 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C302,id,empty,zero,400,error
+C303,id,null,no,400,error
+C304,id,numeric,10,400,error
+C305,id,boolean,boolean,400,error
+C306,id,alphabets,10,400,error
+C307,id,uuid,30,400,error
+C308,id,alphanumeric,10,400,error
+C309,id,existing,existing,400,error
+C310,id,special char,10,400,error
+C331,code,numeric,3,400,error
+C332,code,empty,zero,400,error
+C333,code,null,no,400,error
+C334,code,numeric,150,400,error
+C335,code,boolean,boolean,400,error
+C336,code,alphabets,151,400,error
+C337,code,alphabets,149,400,error
+C339,code,existing,existing,400,error
+C340,code,special char,150,400,error
+C312,name,empty,zero,400,error
+C313,name,null,no,400,error
+C314,name,numeric,150,400,error
+C315,name,boolean,boolean,400,error
+C316,name,existing,existing,400,error
+C318,name,alphanumeric,149,400,error
+C319,name,alphanumeric,151,400,error
+C320,name,special char,150,400,error
+C323,description,null,no,400,error
+C325,description,boolean,boolean,400,error
+C327,description,alphabets,4001,400,error
+C329,description,existing,existing,400,error
+C342,hierarchyId,empty,zero,400,error
+C343,hierarchyId,null,no,400,error
+C344,hierarchyId,numeric,10,400,error
+C345,hierarchyId,boolean,boolean,400,error
+C346,hierarchyId,alphabets,10,400,error
+C347,hierarchyId,uuid,36,400,error
+C348,hierarchyId,alphanumeric,10,400,error
+C349,hierarchyId,existing,existing,400,error
+C350,hierarchyId,special char,10,400,error
+C352,type,empty,zero,400,error
+C353,type,null,no,400,error
+C355,type,existing,existing,400,error
+C357,type,boolean,boolean,400,error
+C359,type,alphanumeric,150,400,error
+C360,type,special char,150,400,error
+C362,programId,empty,zero,400,error
+C363,programId,null,no,400,error
+C364,programId,numeric,10,400,error
+C365,programId,boolean,boolean,400,error
+C366,programId,alphabets,10,400,error
+C367,programId,uuid,36,400,error
+C368,programId,alphanumeric,10,400,error
+C369,programId,existing,existing,400,error
+C370,programId,special char,10,400,error
+C372,level,empty,zero,400,error
+C373,level,null,no,400,error
+C374,level,numeric,9,400,error
+C375,level,boolean,boolean,400,error
+C376,level,numeric,0,400,error
+C377,level,alphabets,4,400,error
+C378,level,alphanumeric,3,400,error
+C379,level,existing,existing,400,error
+C380,level,special char,5,400,error

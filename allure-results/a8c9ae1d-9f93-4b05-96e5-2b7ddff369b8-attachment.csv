@@ -1,0 +1,10 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2001,code,numeric,3,201,success
+C2014,name,alphabets,255,201,success
+C2020,description,alphabets,200,201,success
+C2021,description,alphanumeric,200,201,success
+C2022,description,numeric,200,201,success
+C2023,description,alphanumeric special char,200,201,success
+C2027,description,existing,existing,201,success
+C2028,description,alphabets,4000,201,success
+C2031,type,dynamic,7,201,success

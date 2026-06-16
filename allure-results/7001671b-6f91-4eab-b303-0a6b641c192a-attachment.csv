@@ -1,0 +1,3 @@
+testid,parameter,valuetype,passwordValuetype,responsecode,responsestatus
+I102,username,validName,encrypted,200,success
+I104,mobile,validNumber,encrypted,200,success

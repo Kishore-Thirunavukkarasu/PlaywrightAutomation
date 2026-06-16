@@ -1,0 +1,30 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2002,code,numeric,4,400,error
+C2003,code,numeric,2,400,error
+C2004,code,alphabets,3,400,error
+C2005,code,alphanumeric,3,400,error
+C2006,code,special char,3,400,error
+C2007,code,null,null,400,error
+C2008,code,empty,empty,400,error
+C2009,code,existing,existing,400,error
+C2011,name,alphabets,256,400,error
+C2012,name,empty,empty,400,error
+C2013,name,null,null,400,error
+C2015,name,special char,20,400,error
+C2016,name,alphanumeric,25,400,error
+C2017,name,numeric,25,400,error
+C2018,name,existing,existing,400,error
+C2019,name,boolean,boolean,400,error
+C2024,description,empty,empty,400,error
+C2025,description,null,null,400,error
+C2026,description,alphabets,4001,400,error
+C2029,description,alphanumeric,4001,400,error
+C2030,description,boolean,boolean,400,error
+C2032,type,empty,empty,400,error
+C2033,type,null,null,400,error
+C2034,type,alphabets,6,400,error
+C2035,type,numeric,6,400,error
+C2036,type,boolean,boolean,400,error
+C2037,type,existing,existing,400,error
+C2038,type,special char,6,400,error
+C2039,type,alphanumeric,6,400,error

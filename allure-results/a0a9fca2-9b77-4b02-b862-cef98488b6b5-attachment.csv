@@ -1,0 +1,13 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C434,code,alphanumeric,3,200,success
+C443,name,alphabets,150,200,success
+C444,name,alphanumeric,149,200,success
+C445,name,alphanumeric,151,200,success
+C446,name,special char,150,200,success
+C447,description,alphabets,20,200,success
+C450,description,numeric,150,200,success
+C452,description,alphabets,4000,200,success
+C454,description,alphanumeric,150,200,success
+C456,description,special char,150,200,success
+C457,hierarchyId,hierarchyId,36,200,success
+C467,level,level,1,200,success

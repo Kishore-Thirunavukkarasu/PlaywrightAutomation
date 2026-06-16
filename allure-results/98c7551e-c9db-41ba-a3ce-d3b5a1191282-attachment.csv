@@ -1,0 +1,21 @@
+audienceGroup,users
+SellXGetY Audience1,Setting1SellXGetYUsers
+SellXGetY Audience2,Setting2SellXGetYUsers
+SellXGetY Audience3,Setting3SellXGetYUsers
+SellXGetY Audience4,Setting4SellXGetYUsers
+AOT Audience1,Setting1AOTUsers
+AOT Audience2,Setting2AOTUsers
+AOT Audience3,Setting3AOTUsers
+AOT Audience4,Setting4AOTUsers
+GoalQuest Audience1,Setting1GoalQuestUsers
+GoalQuest Audience2,Setting2GoalQuestUsers
+GoalQuest Audience3,Setting3GoalQuestUsers
+GoalQuest Audience4,Setting4GoalQuestUsers
+OrganizationTarget Audience,Setting1OrganizationTargetUsers
+TestPromotion Audience,Setting1TestPromotionUsers
+DPD Audience,DPDUserSetting
+UserTarget Audience,UserTargetUserSetting
+QandQ Audience,QandQUserSetting
+Game Audience,GameUserSetting
+Invoice Claim Audience,Setting1InvoiceClaimUsers
+Sales Claim Audience,Setting1SalesClaimUsers

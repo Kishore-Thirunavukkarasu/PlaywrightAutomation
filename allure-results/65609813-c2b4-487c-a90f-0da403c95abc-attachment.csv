@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2116,Rules-Hierarchy tableName,valid,-,201,success
+C2117,Rules-Hierarchy tableName,validcombination,-,400,error
+C2117,Rules-Hierarchy tableName,invalid,10,400,error
+C2118,Rules-Hierarchy tableName,null,null,400,error
+C2119,Rules-Hierarchy tableName,empty,empty,400,error
+C2115,Rules-Hierarchy tableName,existing,existing,400,error

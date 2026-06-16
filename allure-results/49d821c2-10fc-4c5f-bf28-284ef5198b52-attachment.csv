@@ -1,0 +1,51 @@
+feature,permission,permission2,permission3,permission4,permission5
+Partner Hub,Read,Create,Update,Delete,Publish
+Program Setup,Read,Create,Update,Delete,Publish
+Admin Toolkit,Read,Create,Update,Delete,Publish
+Promotions,Read,Create,Update,Delete,Publish
+Integration Hub,Read,Create,Update,Delete,Publish
+Communications,Read,Create,Update,Delete,Publish
+Settings,Read,Create,Update,Delete,Publish
+Sales & Claims,Read,Create,Update,Delete,Publish
+Foundation Tools,Read,Create,Update,Delete,Publish
+Experience Studio,Read,Create,Update,Delete,Publish
+Partner Hub,Create,Read,Update,Delete,Publish
+Program Setup,Create,Read,Update,Delete,Publish
+Admin Toolkit,Create,Read,Update,Delete,Publish
+Promotions,Create,Read,Update,Delete,Publish
+Integration Hub,Create,Read,Update,Delete,Publish
+Communications,Create,Read,Update,Delete,Publish
+Settings,Create,Read,Update,Delete,Publish
+Sales & Claims,Create,Read,Update,Delete,Publish
+Foundation Tools,Create,Read,Update,Delete,Publish
+Experience Studio,Create,Read,Update,Delete,Publish
+Partner Hub,Update,Read,Create,Delete,Publish
+Program Setup,Update,Read,Create,Delete,Publish
+Admin Toolkit,Update,Read,Create,Delete,Publish
+Promotions,Update,Read,Create,Delete,Publish
+Integration Hub,Update,Read,Create,Delete,Publish
+Communications,Update,Read,Create,Delete,Publish
+Settings,Update,Read,Create,Delete,Publish
+Sales & Claims,Update,Read,Create,Delete,Publish
+Foundation Tools,Update,Read,Create,Delete,Publish
+Experience Studio,Update,Read,Create,Delete,Publish
+Partner Hub,Delete,Read,Create,Update,Publish
+Program Setup,Delete,Read,Create,Update,Publish
+Admin Toolkit,Delete,Read,Create,Update,Publish
+Promotions,Delete,Read,Create,Update,Publish
+Integration Hub,Delete,Read,Create,Update,Publish
+Communications,Delete,Read,Create,Update,Publish
+Settings,Delete,Read,Create,Update,Publish
+Sales & Claims,Delete,Read,Create,Update,Publish
+Foundation Tools,Delete,Read,Create,Update,Publish
+Experience Studio,Delete,Read,Create,Update,Publish
+Partner Hub,Publish,Read,Create,Update,Delete
+Program Setup,Publish,Read,Create,Update,Delete
+Admin Toolkit,Publish,Read,Create,Update,Delete
+Promotions,Publish,Read,Create,Update,Delete
+Integration Hub,Publish,Read,Create,Update,Delete
+Communications,Publish,Read,Create,Update,Delete
+Settings,Publish,Read,Create,Update,Delete
+Sales & Claims,Publish,Read,Create,Update,Delete
+Foundation Tools,Publish,Read,Create,Update,Delete
+Experience Studio,Publish,Read,Create,Update,Delete

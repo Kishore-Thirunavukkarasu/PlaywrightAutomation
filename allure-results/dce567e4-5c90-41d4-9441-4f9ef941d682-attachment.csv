@@ -1,0 +1,2 @@
+testid,parameter,valuetype,passwordValuetype,responsecode,responsestatus
+I101,email,validMailId,encrypted,200,success

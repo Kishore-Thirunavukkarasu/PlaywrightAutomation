@@ -1,0 +1,6 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-AdditionalCriteria RuleCondition,valid,conditionOperator,201,success
+C2108,Rules-AdditionalCriteria RuleCondition,empty,empty,200,success
+C2109,Rules-AdditionalCriteria RuleCondition,null,null,400,error
+C2110,Rules-AdditionalCriteria RuleCondition,alphabets,1,400,error
+C2111,Rules-AdditionalCriteria RuleCondition,numeric,1,400,error

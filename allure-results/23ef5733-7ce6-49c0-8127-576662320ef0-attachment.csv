@@ -1,0 +1,12 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2271,code,alphanumeric,3,200,success
+C2275,code,existing,existing,200,success
+C2280,name,alphabets,255,200,success
+C2284,name,existing,existing,200,success
+C2286,description,alphabets,200,200,success
+C2287,description,alphanumeric,200,200,success
+C2288,description,numeric,200,200,success
+C2289,description,alphanumeric special char,200,200,success
+C2293,description,existing,existing,200,success
+C2294,description,alphabets,4000,200,success
+C2297,type,static,6,200,success

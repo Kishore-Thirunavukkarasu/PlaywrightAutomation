@@ -1,0 +1,5 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-AdditionalCriteria RuleCriteria attributeDetails dataType,alphabets,-,201,success
+C2108,Rules-AdditionalCriteria RuleCriteria attributeDetails dataType,numeric,-,201,success
+C2109,Rules-AdditionalCriteria RuleCriteria attributeDetails dataType,null,null,400,error
+C2110,Rules-AdditionalCriteria RuleCriteria attributeDetails dataType,empty,empty,400,error

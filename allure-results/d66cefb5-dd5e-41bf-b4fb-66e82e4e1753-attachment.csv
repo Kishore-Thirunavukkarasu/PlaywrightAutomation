@@ -1,0 +1,10 @@
+C041,config,uuid,36,201,success
+C042,config,empty,empty,400,error
+C043,config,null,null,400,error
+C044,config,alphabets,36,400,error
+C045,config,numeric,36,400,error
+C046,config,boolean,boolean,400,error
+C047,config,alphanumeric,37,400,error
+C048,config,alphanumeric,36,400,error
+C049,config,existing,existing,400,error
+C050,config,special char,36,400,error

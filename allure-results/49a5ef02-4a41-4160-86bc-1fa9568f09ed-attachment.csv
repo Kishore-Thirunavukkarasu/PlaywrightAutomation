@@ -1,0 +1,6 @@
+Field,Description
+Name,Course or Learning Path title
+Activity Type,Indicates whether its a course or learning path
+Completion Date,Date the activity was completed
+Certificate Earned,Shows "Yes" if a certificate was issued
+View Certificate Link,A button or link to view/download certificate (if applicable)

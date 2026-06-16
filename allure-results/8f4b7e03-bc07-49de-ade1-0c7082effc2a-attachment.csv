@@ -1,0 +1,2 @@
+testid,parameter,value,responsecode,responsestatus
+EA141,promotionId,valid,200,success

@@ -1,0 +1,2 @@
+testid,tokentype,valuetype,responsecode,responsestatus
+I127,BearerToken,valid,200,success

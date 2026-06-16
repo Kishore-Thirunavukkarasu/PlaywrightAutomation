@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2116,Rules-Job Roles tableName,valid,-,201,success
+C2117,Rules-Job Roles tableName,validcombination,-,400,error
+C2117,Rules-Job Roles tableName,invalid,10,400,error
+C2118,Rules-Job Roles tableName,null,null,400,error
+C2119,Rules-Job Roles tableName,empty,empty,400,error
+C2115,Rules-Job Roles tableName,existing,existing,400,error

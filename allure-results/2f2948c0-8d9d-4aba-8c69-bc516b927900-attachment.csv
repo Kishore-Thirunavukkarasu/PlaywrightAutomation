@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,status,records
+C1557,environmentid,valid,200,success,1
+C1558,environmentid,invalid,400,error,0
+C1559,environmentid,null,400,error,0
+C1560,environmentid,blank,400,error,0

@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,status,records
+C1653,expiryDate,valid,200,success,1
+C1654,expiryDate,invalid,400,error,0
+C1655,expiryDate,blank,400,error,0
+C1656,expiryDate,null,400,error,0

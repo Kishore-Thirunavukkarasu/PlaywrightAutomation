@@ -1,0 +1,6 @@
+points,result
+0,Points must be greater than zero
+-100,Negative points not allowed
+0.5,Decimal points not allowed
+abc,Invalid number format
+null,Points value is required

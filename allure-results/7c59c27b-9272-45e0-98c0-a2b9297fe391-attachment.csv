@@ -1,0 +1,16 @@
+testid,parameter,type,valuetype,passwordValuetype,responsecode,responsestatus
+PlatformIdentity-104,username,username,invalidName,encrypted,401,error
+PlatformIdentity-105,email,email,invalidEmail,encrypted,401,error
+PlatformIdentity-106,mobileNumber,mobileNumber,invalidMobileNumber,encrypted,401,error
+PlatformIdentity-107,username,email,validName,encrypted,401,error
+PlatformIdentity-108,username,mobileNumber,validName,encrypted,401,error
+PlatformIdentity-109,email,username,validEmail,encrypted,401,error
+PlatformIdentity-110,email,mobileNumber,validEmail,encrypted,401,error
+PlatformIdentity-111,mobileNumber,username,validMobileNumber,encrypted,401,error
+PlatformIdentity-112,mobileNumber,email,validMobileNumber,encrypted,401,error
+PlatformIdentity-113,username,username,empty,encrypted,401,error
+PlatformIdentity-114,email,email,empty,encrypted,401,error
+PlatformIdentity-115,mobileNumber,mobileNumber,empty,encrypted,401,error
+PlatformIdentity-116,username,username,null,encrypted,401,error
+PlatformIdentity-117,email,email,null,encrypted,401,error
+PlatformIdentity-118,mobileNumber,mobileNumber,null,encrypted,401,error

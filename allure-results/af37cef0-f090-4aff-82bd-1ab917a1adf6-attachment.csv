@@ -1,0 +1,4 @@
+testid,type,responsecode,responsestatus
+C2311,empty,400,error
+C2312,null,400,error
+C2313,invalid,400,error

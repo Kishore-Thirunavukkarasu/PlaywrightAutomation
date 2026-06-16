@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,status,records
+C1642,primaryKey,valid,200,success,1
+C1643,primaryKey,invalid,400,error,0
+C1644,primaryKey,blank,400,error,0
+C1645,primaryKey,null,400,error,0

@@ -1,0 +1,3 @@
+testid,parameter,type,valuetype,passwordValuetype,responsecode,responsestatus
+PlatformIdentity-102,email,email,validEmail,encrypted,200,success
+PlatformIdentity-103,mobileNumber,mobileNumber,validMobileNumber,encrypted,200,success

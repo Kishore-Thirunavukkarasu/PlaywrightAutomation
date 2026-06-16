@@ -1,0 +1,7 @@
+testid,field,type,responsecode,responsestatus
+ORG028,name,valid,200,success
+ORG029,description,valid,200,success
+ORG030,code,valid,200,success
+ORG031,phone,valid,200,success
+ORG032,email,valid,200,success
+ORG033,active,valid,200,success

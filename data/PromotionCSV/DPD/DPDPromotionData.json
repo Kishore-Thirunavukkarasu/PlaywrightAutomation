@@ -1,0 +1,30 @@
+{
+    "BasicDetails": {
+        "measurename": "DPD Promotion_measure",
+        "description": "DPD Promotion_measure",
+        "dataSourceType": "view",
+        "datasourcename": "vw_directpoints_results",
+        "pointBankingtype": "Transaction wise Banking",
+        "pointbankingtrigger": "Manual Banking",
+        "enablepayoutcapping": "no",
+        "maxPointForParticipants": "0",
+        "maxPointForMeasure": "0"
+    },
+    "MeasureRule": {
+        "rulename": "DPD Promotion_measure_rule",
+        "ruledescription": "DPD Promotion_measure_rule",
+        "rewardRecipient": "userId",
+        "rewardValue": "points",
+        "bankdescription": "Awarded ",
+        "columnName": "points",
+        "columnDescription": " Points",
+        "billCode1": "code1",
+        "billCodeField1": "userId",
+        "uniqueKey1": "referenceId1",
+        "uniqueKey2": "referenceId2",
+        "uniqueKey3": "referenceId3",
+        "ReferenceId1": "userId",
+        "ReferenceId2": "promotionId",
+        "ReferenceId3": "directPointDepositId"        
+    }
+}

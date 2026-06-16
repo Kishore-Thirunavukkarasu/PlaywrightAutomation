@@ -1,0 +1,8 @@
+field,fieldtype,response
+Name,alphanumeric,successfull
+Quantity,numeric,successfull
+Product Master,dropdown,successfull
+Product,dropdown,successfull
+Validity,dropdown,successfull
+Value,numeric,successfull
+Status,dropdown,successfull

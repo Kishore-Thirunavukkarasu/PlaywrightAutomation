@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,status,records
+C344,mobile,valid,200,success,1
+C345,mobile,invalid,400,error,0
+C346,mobile,empty,400,error,0
+C347,mobile,null,400,error,0

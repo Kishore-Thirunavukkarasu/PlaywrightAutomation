@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C2283,id,invalid id,400,success,0
+C2284,id,empty,400,error,0
+C2285,id,null,400,error,0
+C2286,id,differennt schema id,400,error,0

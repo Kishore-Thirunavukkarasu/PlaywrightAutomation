@@ -1,0 +1,2 @@
+testid,tokentype,valuetype,responsecode,responsestatus
+PlatformIdentity-131,BearerToken,valid,200,success

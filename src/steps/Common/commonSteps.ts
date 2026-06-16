@@ -2,7 +2,7 @@ import { Given, When, Then } from "@cucumber/cucumber";
 import assert from 'node:assert/strict';
 import { TenantPage } from '../../pages/Admin/tenant';
 import { config } from '../../config/env';
-import { heal } from "../../helper/geminiHeal";
+import { heal } from "../../helper/heal/geminiHeal";
 
 const tenantPage = new TenantPage();
 

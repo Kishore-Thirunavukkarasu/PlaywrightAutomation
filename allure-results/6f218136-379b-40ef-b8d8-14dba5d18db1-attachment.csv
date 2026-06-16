@@ -1,0 +1,11 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C083,configvalue,uuid,36,201,success
+C084,configvalue,empty,empty,400,error
+C085,configvalue,null,null,400,error
+C086,configvalue,alphabets,36,400,error
+C087,configvalue,numeric,36,400,error
+C088,configvalue,boolean,boolean,400,error
+C089,configvalue,alphanumeric,37,400,error
+C090,configvalue,alphanumeric,36,400,error
+C091,configvalue,existing,existing,400,error
+C092,configvalue,special char,36,400,error

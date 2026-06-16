@@ -1,0 +1,4 @@
+type,username,password,result
+active,valid,valid,should be
+active,valid,invalid,should not
+active,invalid,valid,should not

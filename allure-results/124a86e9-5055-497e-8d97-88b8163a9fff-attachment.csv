@@ -1,0 +1,2 @@
+testid,payload,responsecode,responsestatus
+A002,invalid,400,error

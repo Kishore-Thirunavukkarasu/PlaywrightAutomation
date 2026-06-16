@@ -1,0 +1,4 @@
+testid,valuetype,responsecode,responsestatus
+CQ002,invalid,400,error
+CQ003,null,400,error
+CQ004,empty,400,error

@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "url": "https://qa.phoenix-np-in.channelsmart.net/adminqa/login",
+    "superuser": "kishore.thirunavukkarasu@biworldwide.com",
+    "superpass": "Password@123",
+    "superusername": "",
+    "superusermobilenumber": "",
+    "tenantuser": "test@nomail.com",
+    "tenantpass": "test123"
+  },
+  "platform": {
+    "url": "https://qa.phoenix-np-in.channelsmart.net/login/",
+    "username": "",
+    "email": "",
+    "mobile": "",
+    "password": ""
+  }
+}

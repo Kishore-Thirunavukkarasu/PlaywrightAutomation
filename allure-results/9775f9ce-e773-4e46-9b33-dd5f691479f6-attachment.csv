@@ -1,0 +1,4 @@
+testid,type,responsecode,responsestatus,response
+C2104,invalid,400,error,error
+C2105,null,400,error,error
+C2106,empty,400,error,error

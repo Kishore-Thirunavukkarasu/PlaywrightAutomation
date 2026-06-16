@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-AdditionalCriteria RuleCriteria connectors pkey,valid,-,201,success
+C2108,Rules-AdditionalCriteria RuleCriteria connectors pkey,validcombination,-,400,error
+C2109,Rules-AdditionalCriteria RuleCriteria connectors pkey,null,null,400,error
+C2110,Rules-AdditionalCriteria RuleCriteria connectors pkey,empty,empty,400,error
+C2111,Rules-AdditionalCriteria RuleCriteria connectors pkey,invalid,1,400,error
+C2111,Rules-AdditionalCriteria RuleCriteria connectors pkey,existing,existing,400,error

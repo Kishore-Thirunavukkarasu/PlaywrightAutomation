@@ -1,0 +1,5 @@
+testid,tokentype,valuetype,responsecode,responsestatus
+I128,BearerToken,invalid,400,error
+I129,No Auth,invalid,400,error
+I130,JWT Bearer,invalid,400,error
+I131,OAuth,invalid,400,error

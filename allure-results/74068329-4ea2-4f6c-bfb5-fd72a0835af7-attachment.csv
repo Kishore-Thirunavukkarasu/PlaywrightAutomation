@@ -1,0 +1,7 @@
+environment,application
+QA,admin
+QA,platform
+PPRD,admin
+PPRD,platform
+PROD,admin
+PROD,platform

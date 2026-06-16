@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-AdditionalCriteria RuleCriteria connectors tableName,valid,-,201,success
+C2108,Rules-AdditionalCriteria RuleCriteria connectors tableName,validcombination,-,400,error
+C2109,Rules-AdditionalCriteria RuleCriteria connectors tableName,null,null,400,error
+C2110,Rules-AdditionalCriteria RuleCriteria connectors tableName,empty,empty,400,error
+C2111,Rules-AdditionalCriteria RuleCriteria connectors tableName,invalid,1,400,error
+C2111,Rules-AdditionalCriteria RuleCriteria connectors tableName,existing,existing,400,error

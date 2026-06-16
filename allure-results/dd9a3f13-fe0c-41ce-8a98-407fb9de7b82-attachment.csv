@@ -1,0 +1,11 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C1401,environmentcode,uuid,36,400,error
+C1402,environmentcode,empty,empty,400,error
+C1403,environmentcode,null,null,400,error
+C1404,environmentcode,alphabets,36,201,success
+C1405,environmentcode,numeric,36,400,error
+C1406,environmentcode,boolean,boolean,400,error
+C1407,environmentcode,alphanumeric,37,400,error
+C1408,environmentcode,alphanumeric,36,400,error
+C1409,environmentcode,existing,existing,400,error
+C1410,environmentcode,special char,36,400,error

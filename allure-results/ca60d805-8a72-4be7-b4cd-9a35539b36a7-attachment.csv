@@ -1,0 +1,2 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C641,name,alphabets,10,200,success

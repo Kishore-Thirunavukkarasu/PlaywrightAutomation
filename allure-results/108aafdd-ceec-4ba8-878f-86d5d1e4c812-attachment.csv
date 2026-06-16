@@ -1,0 +1,6 @@
+testid,type,responsecode,responsestatus,response
+C1592,valid,200,success,success
+C1593,invalid,400,error,error
+C1594,null,400,error,error
+C1595,empty,400,error,error
+C1596,deleted,400,error,error

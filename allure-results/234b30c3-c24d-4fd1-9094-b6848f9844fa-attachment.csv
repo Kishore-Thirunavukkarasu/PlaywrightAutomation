@@ -1,0 +1,4 @@
+testid,parameter,domainvalue,response code,responsestatus
+C305_2,emailid,4,200,success
+C305_3,emailid,3,200,success
+C305_4,emailid,2,200,success

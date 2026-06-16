@@ -1,0 +1,51 @@
+feature,permission
+Partner Hub,Read
+Partner Hub,Create
+Partner Hub,Update
+Partner Hub,Delete
+Partner Hub,Publish
+Program Setup,Read
+Program Setup,Create
+Program Setup,Update
+Program Setup,Delete
+Program Setup,Publish
+Admin Toolkit,Read
+Admin Toolkit,Create
+Admin Toolkit,Update
+Admin Toolkit,Delete
+Admin Toolkit,Publish
+Promotions,Read
+Promotions,Create
+Promotions,Update
+Promotions,Delete
+Promotions,Publish
+Integration Hub,Read
+Integration Hub,Create
+Integration Hub,Update
+Integration Hub,Delete
+Integration Hub,Publish
+Communications,Read
+Communications,Create
+Communications,Update
+Communications,Delete
+Communications,Publish
+Settings,Read
+Settings,Create
+Settings,Update
+Settings,Delete
+Settings,Publish
+Sales & Claims,Read
+Sales & Claims,Create
+Sales & Claims,Update
+Sales & Claims,Delete
+Sales & Claims,Publish
+Foundation Tools,Read
+Foundation Tools,Create
+Foundation Tools,Update
+Foundation Tools,Delete
+Foundation Tools,Publish
+Experience Studio,Read
+Experience Studio,Create
+Experience Studio,Update
+Experience Studio,Delete
+Experience Studio,Publish

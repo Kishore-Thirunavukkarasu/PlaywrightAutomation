@@ -1,0 +1,8 @@
+{
+  "promotionname": "DPD Promotion",
+  "promotionCode": "DPDP",
+  "promotiondescription": "Created through automation for DPD",
+  "promotiontag": "Tag1",
+  "promotionprimarybillcode": "Ack ",
+  "promotionsecondarybillcode": "Burs"
+}

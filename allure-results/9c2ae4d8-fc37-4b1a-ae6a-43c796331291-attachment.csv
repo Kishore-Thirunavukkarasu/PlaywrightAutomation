@@ -1,0 +1,8 @@
+testid,pathparameter1,value1,pathparameter2,value2,responsecode,status,records
+C411,tenantid,valid,tenantcontactid,valid,200,success,1
+C412,tenantid,invalid,tenantcontactid,valid,400,error,0
+C413,tenantid,empty,tenantcontactid,valid,400,error,0
+C414,tenantid,null,tenantcontactid,valid,400,error,0
+C415,tenantid,valid,tenantcontactid,invalid,400,error,0
+C416,tenantid,valid,tenantcontactid,empty,400,error,0
+C417,tenantid,valid,tenantcontactid,null,400,error,0

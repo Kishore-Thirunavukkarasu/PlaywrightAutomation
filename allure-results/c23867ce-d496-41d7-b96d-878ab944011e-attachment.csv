@@ -1,0 +1,36 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+EA106,contextType,invalid,no,400,error
+EA107,contextType,alphanumeric,10,400,error
+EA108,contextType,special char,10,400,error
+EA109,contextType,numeric,10,400,error
+EA110,contextType,boolean,no,400,error
+EA111,contextType,empty,no,400,error
+EA112,contextType,null,no,400,error
+EA113,contextId,invalid,no,400,error
+EA114,contextId,alphanumeric,10,400,error
+EA115,contextId,special char,10,400,error
+EA116,contextId,numeric,10,400,error
+EA117,contextId,boolean,no,400,error
+EA118,contextId,empty,no,400,error
+EA119,contextId,null,no,400,error
+EA120,attribute,invalid,no,400,error
+EA121,attribute,alphanumeric,10,400,error
+EA122,attribute,special char,10,400,error
+EA123,attribute,numeric,10,400,error
+EA124,attribute,boolean,no,400,error
+EA125,attribute,empty,no,400,error
+EA126,attribute,null,no,400,error
+EA127,attributeId,invalid,no,400,error
+EA128,attributeId,alphanumeric,10,400,error
+EA129,attributeId,special char,10,400,error
+EA130,attributeId,numeric,10,400,error
+EA131,attributeId,boolean,no,400,error
+EA132,attributeId,empty,no,400,error
+EA133,attributeId,null,no,400,error
+EA134,audienceId,invalid,no,400,error
+EA135,audienceId,alphanumeric,10,400,error
+EA136,audienceId,special char,10,400,error
+EA137,audienceId,numeric,10,400,error
+EA138,audienceId,boolean,no,400,error
+EA139,audienceId,empty,no,400,error
+EA140,audienceId,null,no,400,error

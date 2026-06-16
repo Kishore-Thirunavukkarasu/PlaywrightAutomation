@@ -1,0 +1,155 @@
+{
+    "user": {
+        "selfregistrationUser": "Troy",
+        "adminUser": "Kelton",
+        "uploadedUser": "Jan21vpVAU",
+        "approvalUser": "BCUserApprovalUser",
+        "rejectUser": "BCRejectUser",
+        "superapprovalUser": "BCSuperApprovalUser",
+        "l1approveruser": "",
+        "l2approveruser": "",
+        "superuser": "",
+        "InvoiceClaimUser": "INVUser01",
+        "ClaimApprover": "",
+        "SalesClaimUser": "SALUser01"
+    },
+    "audience": {
+        "audience1": {},
+        "audience2": {},
+        "superApproval": {
+            "name": "",
+            "type": "static",
+            "description": "Super approval audience group for backward compatibility testing"
+        },
+        "l1Approval": {
+            "name": "",
+            "type": "static",
+            "description": "L1 approval audience group for backward compatibility testing"
+        },
+        "l2Approval": {
+            "name": "",
+            "type": "static",
+            "description": "L2 approval audience group for backward compatibility testing"
+        },
+        "staticAudienceForEdit": {
+            "name": "",
+            "type": "static",
+            "description": "Static audience group used for edit/update testing"
+        },
+        "dynamicAudienceForEdit": {
+            "name": "",
+            "type": "dynamic",
+            "description": "Dynamic audience group used for edit/update testing"
+        },
+        "users": {
+            "selfRegistrationUser": "",
+            "adminUser": "",
+            "uploadedUser": "",
+            "validUser": ""
+        },
+        "removableaudience": "",
+        "removableaudienceusername": "",
+        "jobRoles": {
+            "validJobRole": "Manager",
+            "testJobRole": "Sales Representative"
+        },
+        "organizations": {
+            "validOrganization": "Default Organization",
+            "testOrganization": "Test Org"
+        },
+        "csvTemplates": {
+            "staticAudienceTemplate": "data/CSVFiles/AudienceTemplates/StaticAudience.csv",
+            "dynamicAudienceTemplate": "data/CSVFiles/AudienceTemplates/DynamicAudience.csv"
+        }
+    },
+    "promotion": {
+        "singlemeasure": {
+            "promotionname": "BCPromotion_Feb03 Promotion",
+            "promotionCode": "BCP975",
+            "promotiondescription": "Created through automation for BCPromotion_Feb03",
+            "promotiontag": "Tag1",
+            "promotionprimarybillcode": "Hm t",
+            "promotionsecondarybillcode": "Port"
+        },
+        "game": {},
+        "quiz": "",
+        "dpd": "",
+        "goal": "",
+        "tier": "",
+        "lxp": "",
+        "coupon": "",
+        "InvoiceClaim": "",
+        "SalesClaim": ""
+    },
+    "hierarchy": {
+        "bcHierarchy1": "SalesBC",
+        "bcHierarchy2": "BCManualHierarchy"
+    },
+    "organization": {
+        "bcorganization1": "BCOrganization1_Feb02",
+        "bcorganization2": "Revolut Pvt Ltd"
+    },
+    "product": {
+        "product1": {},
+        "product2": {}
+    },
+    "jobrole": {
+        "jobrole1": "BCJobrole_Feb02",
+        "jobrole2": ""
+    },
+    "status": {
+        "status1": "BCStatus_Feb02",
+        "status2": ""
+    },
+    "promotionpage": {
+        "promotionpage1": {},
+        "promotionpage2": {}
+    },
+    "cmspage": {
+        "cmspage1": {},
+        "cmspage2": {}
+    },
+    "integrationhub": {
+        "integrationhub1": {},
+        "integrationhub2": {}
+    },
+    "learningobject": {
+        "learningobject1": {},
+        "learningobject2": {}
+    },
+    "lxpTag": {
+        "lxpTag1": "NewTagIck ",
+        "lxpTag1Code": "QbZSFr"
+    },
+    "lxpSkillTag": {
+        "lxpSkillTag1": "NewSkillTagWhil",
+        "lxpSkillTag1Code": "WaupHP"
+    },
+    "lxpCategory": {
+        "lxpCategory1": "NewCategoryKnow",
+        "lxpCategory1Code": "8vAMSu"
+    },
+    "lxpCourse": {
+        "lxpCourse1": "BC Automation CourseMdKqw",
+        "lxpCourse1Code": "7Goezi"
+    },
+    "InvoiceClaim": {
+        "SuccessfullClaim":{
+            "invoiceNumber": "INV-001",
+            "quantity": 1,
+            "value": 100.0,
+            "date": "2024-02-03",
+            "product": "Product A"
+        }
+    },
+     "SalesClaim": {
+        "SuccessfullClaim":{
+            "invoiceNumber": "INV-001",
+            "quantity": 1,
+            "value": 100.0,
+            "date": "2024-02-03",
+            "product": "Product A"
+        }
+
+    }
+}

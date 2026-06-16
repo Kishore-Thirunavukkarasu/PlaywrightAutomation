@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2116,Rules-Job Roles connectorFkey,validcombination,-,201,success
+C2116,Rules-Job Roles connectorFkey,valid,-,400,error
+C2117,Rules-Job Roles connectorFkey,invalid,10,400,error
+C2118,Rules-Job Roles connectorFkey,null,null,400,error
+C2119,Rules-Job Roles connectorFkey,empty,empty,400,error
+C2115,Rules-Job Roles connectorFkey,existing,existing,400,error

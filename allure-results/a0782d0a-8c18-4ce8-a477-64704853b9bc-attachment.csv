@@ -1,0 +1,6 @@
+testid,attributeType,valuetype,responsecode
+CQ006,boolean,boolean,200
+CQ007,numeric,numeric,200
+CQ008,date,date,200
+CQ009,timestamp,timestamp,200
+CQ010,list,list,200

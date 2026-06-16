@@ -1,0 +1,7 @@
+Rewardcalculation,RewardType,RewardRecipient
+Static,Points,username
+Static,Score,username
+Static,Game token,username
+Dynamic,Points,username
+Dynamic,Score,username
+Dynamic,Game token,username

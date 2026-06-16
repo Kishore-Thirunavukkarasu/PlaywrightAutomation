@@ -1,0 +1,4 @@
+testid,query parameter,value,responsecode,status,records
+C360,isActive,true,200,success,1
+C361,isActive,false,200,success,1
+C362,isActive,invalid,400,error,0

@@ -1,0 +1,7 @@
+username,password,status,view
+invalid,invalid,active,notdisplayed
+valid,invalid,active,notdisplayed
+invalid,valid,active,notdisplayed
+valid,valid,inactive,notdisplayed
+valid,valid,deleted,notdisplayed
+emptyfield,emptyfield,nostatus,notdisplayed

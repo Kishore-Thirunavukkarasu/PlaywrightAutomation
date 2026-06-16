@@ -1,0 +1,6 @@
+testid,parameter,valuetype,responsecode,responsestatus
+C011,configkey,string,201,success
+C012,configkey,empty,400,error
+C013,configkey,null,400,error
+C014,configkey,boolean,400,error
+C015,configkey,number,201,success

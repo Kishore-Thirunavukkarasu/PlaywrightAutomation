@@ -1,0 +1,91 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C102,name,alphabets,256,400,error
+C103,name,empty,empty,400,error
+C104,name,null,null,400,error
+C106,name,special char,20,400,error
+C107,name,alphanumeric,25,400,error
+C108,name,numeric,25,400,error
+C109,name,existing,existing,400,error
+C110,name,boolean,boolean,400,error
+C111,code,numeric,3,400,error
+C112,code,numeric,4,400,error
+C113,code,numeric,2,400,error
+C114,code,null,null,400,error
+C115,code,empty,empty,400,error
+C116,code,special char,3,400,error
+C118,code,alphabets,3,400,error
+C119,code,existing,existing,400,error
+C120,code,boolean,boolean,400,error
+C122,website,website,256,400,error
+C123,website,empty,empty,400,error
+C124,website,null,null,400,error
+C125,website,alphabets,250,400,error
+C126,website,boolean,boolean,400,error
+C127,website,existing,existing,400,error
+C128,website,numeric,250,400,error
+C129,website,special char,250,400,error
+C130,website,alphanumeric,250,400,error
+C131,website,alphabets with space,250,400,error
+C133,address,alphabets,256,400,error
+C134,address,empty,empty,400,error
+C135,address,null,null,400,error
+C137,address,boolean,boolean,400,error
+C138,address,existing,existing,400,error
+C140,address,special char,250,400,error
+C145,tenantURL,tenantURL,256,400,error
+C146,tenantURL,empty,empty,400,error
+C147,tenantURL,null,null,400,error
+C148,tenantURL,alphabets,250,400,error
+C149,tenantURL,boolean,boolean,400,error
+C150,tenantURL,existing,existing,400,error
+C151,tenantURL,numeric,250,400,error
+C152,tenantURL,special char,250,400,error
+C153,tenantURL,alphanumeric,250,400,error
+C154,tenantURL,alphabets with space,250,400,error
+C156,state,alphabets,256,400,error
+C157,state,empty,empty,400,error
+C158,state,null,null,400,error
+C160,state,special char,20,400,error
+C161,state,alphanumeric,25,400,error
+C162,state,numeric,25,400,error
+C163,state,existing,existing,400,error
+C164,state,boolean,boolean,400,error
+C166,city,alphabets,256,400,error
+C167,city,empty,empty,400,error
+C168,city,null,null,400,error
+C170,city,special char,20,400,error
+C171,city,alphanumeric,25,400,error
+C172,city,numeric,25,400,error
+C173,city,existing,existing,400,error
+C174,city,boolean,boolean,400,error
+C186,zipCode,numeric,7,400,error
+C187,zipCode,numeric,5,400,error
+C188,zipCode,empty,empty,400,error
+C189,zipCode,null,null,400,error
+C190,zipCode,alphabets,6,400,error
+C191,zipCode,special char,6,400,error
+C192,zipCode,alphanumeric,6,400,error
+C193,zipCode,existing,existing,400,error
+C194,zipCode,boolean,boolean,400,error
+C195,zipCode,alphanumeric special char,6,400,error
+C196,zipCode,numeric special char,6,400,error
+C197,zipCode,numeric with space,6,400,error
+C199,currency,alphabets,4,400,error
+C200,currency,alphabets,2,400,error
+C201,currency,empty,empty,400,error
+C202,currency,null,null,400,error
+C203,currency,numeric,3,400,error
+C204,currency,special char,3,400,error
+C205,currency,alphanumeric,3,400,error
+C206,currency,existing,existing,400,error
+C207,currency,boolean,boolean,400,error
+C208,currency,alphanumeric special char,3,400,error
+C209,currency,numeric special char,3,400,error
+C176,country,alphabets,256,400,error
+C177,country,empty,empty,400,error
+C178,country,null,null,400,error
+C180,country,special char,20,400,error
+C181,country,alphanumeric,25,400,error
+C182,country,numeric,25,400,error
+C183,country,existing,existing,400,error
+C184,country,boolean,boolean,400,error

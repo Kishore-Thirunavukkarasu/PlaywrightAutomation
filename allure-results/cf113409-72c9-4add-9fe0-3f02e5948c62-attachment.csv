@@ -1,0 +1,8 @@
+testid,parameter,value,length,responsecode,responsestatus
+C1601,label,alphabets,254,201,success
+C1602,label,alphabets,256,400,error
+C1603,label,empty,empty,400,error
+C1604,label,null,null,400,error
+C1605,label,boolean,true,201,success
+C1606,label,numeric,10,400,error
+C1609,label,existing,existing,400,error

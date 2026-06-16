@@ -1,0 +1,9 @@
+testid,parameter,valuetype,length,response code,responsestatus
+C300,emailid,email,255,200,success
+C301,emailid,email,250,200,error
+C302,emailid,empty,empty,400,error
+C303,emailid,null,null,400,error
+C304,emailid,existing,existing,200,success
+C305_1,emailid,email,256,400,error
+C305_2,emailid,alphabets,250,400,error
+C305_3,emailid,boolean,true,400,error

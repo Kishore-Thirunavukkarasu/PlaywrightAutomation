@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-Hierarchy connectorTableName,valid,1,201,success
+C2108,Rules-Hierarchy connectorTableName,valid,5,201,success
+C2109,Rules-Hierarchy connectorTableName,null,null,201,success
+C2110,Rules-Hierarchy connectorTableName,empty,empty,400,error
+C2111,Rules-Hierarchy connectorTableName,invalid,1,400,error
+C2111,Rules-Hierarchy connectorTableName,existing,existing,400,error

@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2112,Rules-Job Roles connectorTableName,validcombination,-,201,success
+C2112,Rules-Job Roles connectorTableName,valid,-,400,error
+C2113,Rules-Job Roles connectorTableName,invalid,10,400,error
+C2114,Rules-Job Roles connectorTableName,null,null,400,error
+C2115,Rules-Job Roles connectorTableName,empty,empty,400,error
+C2115,Rules-Job Roles connectorTableName,existing,existing,400,error

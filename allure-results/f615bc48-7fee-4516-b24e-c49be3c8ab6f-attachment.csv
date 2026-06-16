@@ -1,0 +1,5 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+EA102,contextType,validContextType,no,200,success
+EA103,attribute,validAttribute,no,200,success
+EA104,attributeId,validAttributeId,no,200,success
+EA105,audienceId,validAudienceId,no,200,success

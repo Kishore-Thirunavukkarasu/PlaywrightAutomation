@@ -1,0 +1,6 @@
+type,username,password
+inactive,inactiveuser,inactiveuser
+locked,lockeduser,lockeduser
+deleted,deleteduser,deleteduser
+empty,emptyuser,emptyuser
+case change,casechangeuser,casechangepassword

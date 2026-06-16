@@ -1,0 +1,15 @@
+testid,field,type,responsecode,responsestatus
+A060,name,valid,200,success
+A061,description,valid,200,success
+A062,line1,valid,200,success
+A063,line2,valid,200,success
+A064,line3,valid,200,success
+A065,line4,valid,200,success
+A066,line5,valid,200,success
+A067,line6,valid,200,success
+A068,city,valid,200,success
+A069,country,valid,200,success
+A070,countryISOCode,valid,200,success
+A071,postalCode,valid,200,success
+A072,province,valid,200,success
+A073,state,valid,200,success

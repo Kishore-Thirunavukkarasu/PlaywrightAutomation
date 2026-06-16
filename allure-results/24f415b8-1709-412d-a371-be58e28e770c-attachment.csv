@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-Job Roles Connnectors,valid,1,201,success
+C2108,Rules-Job Roles Connnectors,valid,5,201,success
+C2109,Rules-Job Roles Connnectors,null,null,201,success
+C2110,Rules-Job Roles Connnectors,empty,empty,400,error
+C2111,Rules-Job Roles Connnectors,invalid,1,400,error
+C2111,Rules-Job Roles Connnectors,existing,1,400,error

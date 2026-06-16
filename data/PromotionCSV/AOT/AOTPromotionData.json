@@ -1,0 +1,33 @@
+{
+    "BasicDetails": {
+        "measurename": "AOTMeasure",
+        "description": "AOT Promotion",
+        "dataSourceType": "view",
+        "datasourcename": "vw_aotview",
+        "pointBankingtype": "Transaction wise Banking",
+        "pointbankingtrigger": "Manual Banking",
+        "enablepayoutcapping": "no",
+        "maxPointForParticipants": "0",
+        "maxPointForMeasure": "0"
+    },
+    "MeasureRule": {
+        "rulename": "AOTRule",
+        "ruledescription": "AOT Rule for Promotion",
+        "ruleDefinition": "(totalSalesQuantity >= userTarget) && (level == 'L1')",
+        "calculationType": "dynamic",
+        "rewardUnit": "point",
+        "rewardRecipient": "userId",
+        "rewardValue": "reward",
+        "bankdescription": "Achievement of target against ",
+        "columnName": "totalSalesQuantity",
+        "columnDescription": " sales quantity",
+        "billCode1": "code1",
+        "billCodeField1": "userId",
+        "uniqueKey1": "referenceId1",
+        "uniqueKey2": "referenceId2",
+        "uniqueKey3": "referenceId4",
+        "ReferenceId1": "userId",
+        "ReferenceId2": "promotionId",
+        "ReferenceId3": "level"        
+    }
+}

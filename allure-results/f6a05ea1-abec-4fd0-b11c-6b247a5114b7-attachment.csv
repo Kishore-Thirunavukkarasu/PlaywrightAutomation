@@ -1,0 +1,22 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C700,name,alphabets,256,400,error
+C701,name,empty,empty,400,error
+C702,name,null,null,400,error
+C703,name,alphabets,255,200,success
+C704,name,special char,20,400,error
+C705,name,alphanumeric,25,400,error
+C706,name,numeric,25,400,error
+C707,name,existing,existing,400,error
+C708,name,boolean,boolean,400,error
+C713,description,alphabets,4001,400,error
+C714,description,null,null,400,error
+C715,description,empty,empty,400,error
+C718,description,alphanumeric,4001,400,error
+C719,description,boolean,boolean,400,error
+C721,domainUrl,alphabets,256,400,error
+C722,domainUrl,empty,empty,400,error
+C723,domainUrl,null,null,400,error
+C725,domainUrl,special char,20,400,error
+C726,domainUrl,alphanumeric,25,400,error
+C727,domainUrl,numeric,25,400,error
+C729,domainUrl,boolean,boolean,400,error

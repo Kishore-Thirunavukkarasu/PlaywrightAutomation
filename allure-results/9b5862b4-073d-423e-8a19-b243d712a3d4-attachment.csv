@@ -1,0 +1,23 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C211,id,invalid,400,error,0
+C212,id,null,400,error,0
+C215,name,invalid,400,error,0
+C216,name,null,400,error,0
+C219,code,invalid,400,error,0
+C220,code,null,400,error,0
+C223,website,invalid,400,error,0
+C224,website,null,400,error,0
+C227,address,invalid,400,error,0
+C228,address,null,400,error,0
+C231,tenantURL,invalid,400,error,0
+C232,tenantURL,null,400,error,0
+C235,state,invalid,400,error,0
+C236,state,null,400,error,0
+C239,city,invalid,400,error,0
+C240,city,null,400,error,0
+C243,zipCode,invalid,400,error,0
+C244,zipCode,null,400,error,0
+C247,currency,invalid,400,error,0
+C248,currency,null,400,error,0
+C251,country,invalid,400,error,0
+C252,country,null,400,error,0

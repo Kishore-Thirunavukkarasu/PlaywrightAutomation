@@ -1,0 +1,10 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C052,id,blank,400,error,0
+C053,id,null,400,error,0
+C054,id,invalid,400,error,0
+C056,programId,blank,400,error,0
+C057,programId,null,400,error,0
+C058,programId,invalid,400,error,0
+C060,programcountryid,blank,400,error,0
+C061,programcountryid,null,400,error,0
+C062,programcountryid,invalid,400,error,0

@@ -1,0 +1,10 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C632,id,blank,400,error,0
+C633,id,null,400,error,0
+C634,id,invalid,400,error,0
+C635,description,blank,400,error,0
+C636,description,null,400,error,0
+C637,description,invalid,400,error,0
+C638,domainUrl,blank,400,error,0
+C639,domainUrl,null,400,error,0
+C640,domainUrl,invalid,400,error,0

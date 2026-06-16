@@ -1,0 +1,14 @@
+nodetype,nodecategory
+copy from S3 Node,Read and write nodes
+Ready file from local node,Read and write nodes
+write to s3 node,Read and write nodes
+function node,Genric nodes
+if node,Core nodes
+look up node,Data nodes
+cursor node,Data nodes
+insert node,Data nodes
+delete node,Data nodes
+update node,Data nodes
+copy data node,Data nodes
+metadata validation node,Data nodes
+Transaction node,Data nodes

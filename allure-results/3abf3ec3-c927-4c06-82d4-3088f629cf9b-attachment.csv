@@ -1,0 +1,11 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2453,id,uuid,36,200,success
+C2454,id,empty,empty,400,error
+C2455,id,null,null,400,error
+C2456,id,alphabets,36,400,error
+C2457,id,numeric,36,400,error
+C2458,id,boolean,boolean,400,error
+C2459,id,alphanumeric,37,400,error
+C2460,id,alphanumeric,36,400,error
+C2461,id,existing,existing,400,error
+C2462,id,special char,32,400,error

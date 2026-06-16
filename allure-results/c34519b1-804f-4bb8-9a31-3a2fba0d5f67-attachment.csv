@@ -1,0 +1,15 @@
+testid,field,responsecode,responsestatus
+A003,name,400,error
+A004,description,400,error
+A005,line1,400,error
+A006,line2,400,error
+A007,line3,400,error
+A008,line4,400,error
+A009,line5,400,error
+A010,line6,400,error
+A011,city,400,error
+A012,country,400,error
+A013,countryISOCode,400,error
+A014,postalCode,400,error
+A015,province,400,error
+A016,state,400,error

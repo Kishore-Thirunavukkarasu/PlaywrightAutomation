@@ -1,0 +1,5 @@
+Qualifying Sales,greater,lessthan,assign
+Qualifying Sales,5000,10000,BRONZE
+Qualifiying Sales,10000,30000,SILVER
+Qualifiying Sales,30000,50000,GOLD
+Qualifiying Sales,50000,100000,PLATINUM

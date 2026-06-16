@@ -1,0 +1,5 @@
+testid,parameter,value,responsecode,responsestatus
+C360,tenantid,valid,200,success
+C361,tenantid,string,400,error
+C362,tenantid,null,400,error
+C363,tenantid,empty,400,error

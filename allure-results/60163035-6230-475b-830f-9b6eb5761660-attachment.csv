@@ -1,0 +1,11 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C1391,programid,uuid,36,201,success
+C1392,programid,empty,empty,400,error
+C1393,programid,null,null,400,error
+C1394,programid,alphabets,36,400,error
+C1395,programid,numeric,36,400,error
+C1396,programid,boolean,boolean,400,error
+C1397,programid,alphanumeric,37,400,error
+C1398,programid,alphanumeric,36,400,error
+C1399,programid,existing,existing,400,error
+C1400,programid,special char,36,400,error

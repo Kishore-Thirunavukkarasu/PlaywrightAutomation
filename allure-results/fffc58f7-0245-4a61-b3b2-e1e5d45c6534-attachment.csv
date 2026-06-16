@@ -1,0 +1,16 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C2041,id,invalid,400,error,0
+C2042,id,null,400,error,0
+C2043,id,empty,400,error,0
+C2045,code,invalid,400,error,0
+C2046,code,null,400,error,0
+C2047,code,empty,400,error,0
+C2049,name,invalid,400,error,0
+C2050,name,null,400,error,0
+C2051,name,empty,400,error,0
+C2053,description,invalid,400,error,0
+C2054,description,null,400,error,0
+C2055,description,empty,400,error,0
+C2057,type,invalid,400,error,0
+C2058,type,null,400,error,0
+C2059,type,empty,400,error,0

@@ -1,0 +1,4 @@
+column,fieldType
+courseName,String
+coursePrice,String
+courseType,String

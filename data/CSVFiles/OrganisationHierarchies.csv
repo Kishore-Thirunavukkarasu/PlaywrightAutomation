@@ -1,0 +1,8 @@
+recordType,name,newName,level,parentName
+Add,India,,1,test
+Add,Tamilnadu,,2,India
+Add,Kerala,,2,India
+Add,Andhra,,2,India
+Add,Chennai,,3,Tamilnadu
+Add,Munnar,,3,Kerala
+Add,Thirupathi,,3,Andhra

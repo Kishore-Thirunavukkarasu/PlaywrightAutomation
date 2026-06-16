@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2116,Rules-Hierarchy connectorFkey,validcombination,-,201,success
+C2116,Rules-Hierarchy connectorFkey,valid,-,400,error
+C2117,Rules-Hierarchy connectorFkey,invalid,10,400,error
+C2118,Rules-Hierarchy connectorFkey,null,null,400,error
+C2119,Rules-Hierarchy connectorFkey,empty,empty,400,error
+C2115,Rules-Hierarchy connectorFkey,existing,existing,400,error

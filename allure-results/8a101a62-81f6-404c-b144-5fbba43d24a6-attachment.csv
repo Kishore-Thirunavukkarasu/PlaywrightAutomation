@@ -1,0 +1,10 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C2249,id,null,400,error,0
+C2252,code,invalid,400,error,0
+C2253,code,null,400,error,0
+C2256,name,invalid,400,error,0
+C2257,name,null,400,error,0
+C2260,description,invalid,400,error,0
+C2261,description,null,400,error,0
+C2264,type,invalid,400,error,0
+C2265,type,null,400,error,0

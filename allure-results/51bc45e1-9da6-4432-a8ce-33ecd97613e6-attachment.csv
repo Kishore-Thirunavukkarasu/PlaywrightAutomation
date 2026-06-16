@@ -1,0 +1,4 @@
+testid,parameter,value,responsecode,responsestatus
+C2307,staticaudienceId,empty,400,error
+C2308,staticaudienceId,null,400,error
+C2309,staticaudienceId,invalid,400,error

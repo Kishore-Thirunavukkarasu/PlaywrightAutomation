@@ -1,0 +1,22 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C382,id,empty,400,error,0
+C383,id,null,400,error,0
+C384,id,invalid,400,error,0
+C387,code,null,400,error,0
+C388,code,invalid,400,error,0
+C391,name,null,400,error,0
+C392,name,invalid,400,error,0
+C395,description,null,400,error,0
+C396,description,invalid,400,error,0
+C399,hierarchyId,null,400,error,0
+C400,hierarchyId,invalid,400,error,0
+C398,hierarchyId,empty,400,error,0
+C403,type,null,400,error,0
+C404,type,invalid,400,error,0
+C407,programId,null,400,error,0
+C408,programId,invalid,400,error,0
+C406,programId,empty,400,error,0
+C411,level,null,400,error,0
+C412,level,invalid,400,error,0
+C415,createdId,null,400,error,0
+C416,createdId,invalid,400,error,0

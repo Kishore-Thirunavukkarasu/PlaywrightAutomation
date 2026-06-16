@@ -1,0 +1,13 @@
+testid,query parameter,value,responsecode,responsestatus,records
+C385,code,valid,200,success,1
+C386,code,empty,200,success,10
+C389,name,valid,200,success,1
+C390,name,empty,200,success,10
+C393,description,valid,200,success,1
+C394,description,empty,200,success,10
+C397,hierarchyId,valid,200,success,1
+C401,type,valid,200,success,1
+C402,type,empty,200,success,10
+C405,programId,valid,200,success,1
+C409,level,valid,200,success,1
+C410,level,empty,200,success,10

@@ -1,0 +1,34 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C101,programid,uuid,36,400,error
+C102,programid,empty,empty,400,error
+C103,programid,null,null,400,error
+C104,programid,alphabets,36,404,error
+C105,programid,numeric,36,400,error
+C106,programid,boolean,boolean,400,error
+C107,programid,alphanumeric,37,400,error
+C108,programid,alphanumeric,35,400,error
+C001,buttoncolor,uuid,255,400,error
+C002,buttoncolor,empty,empty,400,error
+C003,buttoncolor,null,null,400,error
+C006,buttoncolor,boolean,boolean,400,error
+C010,buttoncolor,special char,256,400,error
+C012,configkey,empty,empty,400,error
+C013,configkey,null,null,400,error
+C016,configkey,boolean,boolean,400,error
+C019,configkey,existing,existing,400,error
+C020,configkey,special char,256,400,error
+C022,configvalue,empty,empty,400,error
+C023,configvalue,null,null,400,error
+C024,configvalue,alphabets,255,400,error
+C025,configvalue,numeric,255,400,error
+C026,configvalue,boolean,boolean,400,error
+C027,configvalue,alphanumeric,256,400,error
+C028,configvalue,alphanumeric,255,400,error
+C029,configvalue,existing,existing,400,error
+C030,configvalue,special char,255,400,error
+C032,configtype,empty,empty,400,error
+C033,configtype,null,null,400,error
+C0255,configtype,boolean,boolean,400,error
+C038,configtype,alphanumeric,255,400,error
+C039,configtype,existing,existing,400,error
+C040,configtype,special char,255,400,error

@@ -1,0 +1,8 @@
+validorinvalid,successorfail
+valid,success
+invalid,fail
+empty,fail
+trailing space,success
+leading space,success
+existing username,fail
+same username,fail

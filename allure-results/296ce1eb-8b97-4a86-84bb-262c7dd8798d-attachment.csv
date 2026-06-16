@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2107,Rules-Job Roles Fields Id,valid,1,201,success
+C2108,Rules-Job Roles Fields Id,valid,5,201,success
+C2109,Rules-Job Roles Fields Id,null,null,201,success
+C2110,Rules-Job Roles Fields Id,empty,empty,400,error
+C2111,Rules-Job Roles Fields Id,invalid,1,400,error
+C2111,Rules-Job Roles Fields Id,existing,existing,400,error

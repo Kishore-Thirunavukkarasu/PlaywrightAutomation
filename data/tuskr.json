@@ -1,0 +1,35 @@
+{
+    "tuskr": {
+        "host": "https://api.tuskr.live",
+        "testcaseEndpoint": "api/tenant/8d591ca7-8839-4bc8-a6fe-b67927aed804/test-case/",
+        "auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk4NDdkYWE2LWU3MWEtNDJiMy04NWNjLTUzOWFmYjljOTlmMCIsImlhdCI6MTY5MjE3MDk1NCwiZXhwIjoxNjkyMjU3MzU0fQ.FDaLkH76q3lWW-YmnyTgP2ORbRAaALxWvNa6HVdSTLc"
+    },
+    "testcase": {
+        "payload": {
+            "data": {
+                "references": [],
+                "externalId": null,
+                "fieldSet": "2a98968a-17d3-478e-b185-e8bf65bc424e",
+                "files": [],
+                "estimatedTimeInMinutes": 5,
+                "name": "Test",
+                "testCaseType": "55625e33-bc9b-4312-a7c5-bb6819a3edb6",
+                "testSuiteSection": "a7972166-92b7-4111-af3f-126ba0a31ce1",
+                "testSuite": "16ca35fb-fb12-4d28-afed-18c8a14152f0",
+                "customFields": {
+                    "TCReviewStat": "fe336e56-3ba8-460b-9d24-00cd36575ec8",
+                    "steps": [
+                        {
+                            "step": 1,
+                            "description": "step",
+                            "expectedResult": "exp"
+                        }
+                    ],
+                    "pre_conditions": "hi",
+                    "category": "1ef4dc8c-c3af-4e13-b7a3-2b9b5411ba11"
+                },
+                "project": "33798f57-d4e0-4470-99f9-2e8798abc9e5"
+            }
+        }
+    }
+}

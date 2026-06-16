@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C602,description,alphabets,10,201,success
+C603,description,alphanumeric,20,201,success
+C604,description,numeric,30,201,success
+C605,description,alphabets,4000,201,success
+C606,domainUrl,alphabets,10,201,success
+C607,domainUrl,alphanumeric,25,201,success

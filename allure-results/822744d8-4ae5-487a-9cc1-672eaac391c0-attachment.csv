@@ -1,0 +1,7 @@
+Field,Description
+Course Name,The name/title of the course
+Description,Short description/overview of the course
+Promotions,Promotion banners discount tags announcements or special highlights
+Progress Bar,Visual indicator of completion progress for the course
+Start Button,A button to start/resume the course
+Last Accessed Date,The most recent date the Participant accessed the course

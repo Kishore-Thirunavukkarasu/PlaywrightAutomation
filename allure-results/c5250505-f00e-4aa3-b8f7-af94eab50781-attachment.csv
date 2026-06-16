@@ -1,0 +1,6 @@
+type,case,result
+valid,valid,should be
+valid,lowercase,should be
+valid,uppercase,should be
+valid,mixedcase,should be
+invalid,invalid,should not be

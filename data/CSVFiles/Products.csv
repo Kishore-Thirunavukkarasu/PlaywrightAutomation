@@ -1,0 +1,11 @@
+externalIdentifier,description,productStatus,productType,sku,recordType
+Car,Product Name is Car,1,Type A,VEH1,Add
+Bus,Product Name is Bus,1,Type B,VEH2,Add
+Bike,Product Name is Bike,1,Type C,VEH3,Add
+Cycle,Product Name is Cycle,1,Type A,VEH4,Add
+Van,Product Name is Van,1,Type B,VEH5,Add
+Train,Product Name is Train,1,Type C,VEH6,Add
+Scooter,Product Name is Scooter,1,Type A,VEH7,Add
+Aeroplane,Product Name is Aeroplane,1,Type B,VEH8,Add
+Ship,Product Name is Ship,1,Type C,VEH9,Add
+Helicopter,Product Name is Helicopter,1,Type A,VEH10,Add

@@ -1,0 +1,11 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C063,programcountryid,uuid,36,201,success
+C064,programcountryid,empty,empty,400,error
+C065,programcountryid,null,null,400,error
+C066,programcountryid,alphabets,36,400,error
+C067,programcountryid,numeric,36,400,error
+C068,programcountryid,boolean,boolean,400,error
+C069,programcountryid,alphanumeric,37,400,error
+C070,programcountryid,alphanumeric,36,400,error
+C071,programcountryid,existing,existing,400,error
+C072,programcountryid,special char,36,400,error

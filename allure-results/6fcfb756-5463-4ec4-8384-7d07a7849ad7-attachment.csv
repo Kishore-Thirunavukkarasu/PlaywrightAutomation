@@ -1,0 +1,4 @@
+testid,parameter,type,valuetype,passwordValuetype,responsecode,responsestatus
+PlatformIdentity-122,username,username,validName,encrypted,401,error
+PlatformIdentity-123,email,email,validEmail,encrypted,401,error
+PlatformIdentity-124,mobileNumber,mobileNumber,validMobileNumber,encrypted,401,error

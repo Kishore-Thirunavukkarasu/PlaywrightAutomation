@@ -1,0 +1,5 @@
+testid,attributeType,valuetype,responsecode
+F101,string,string,200
+F102,string,boolean,200
+F103,string,numeric,200
+F104,string,numeric,200

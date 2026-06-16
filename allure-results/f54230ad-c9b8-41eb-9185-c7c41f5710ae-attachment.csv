@@ -1,0 +1,2 @@
+testid,parameter,type,valuetype,passwordValuetype,responsecode,responsestatus
+PlatformIdentity-101,username,username,validName,encrypted,200,success

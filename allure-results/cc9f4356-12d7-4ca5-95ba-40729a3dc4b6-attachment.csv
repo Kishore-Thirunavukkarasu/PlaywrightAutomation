@@ -1,0 +1,31 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2201,code,numeric,3,201,success
+C2202,code,numeric,4,201,error
+C2203,code,numeric,2,201,error
+C2204,code,alphabets,3,201,error
+C2206,code,special char,3,400,error
+C2207,code,null,null,400,error
+C2208,code,empty,empty,400,error
+C2209,code,existing,existing,400,error
+C2211,name,alphabets,256,400,error
+C2212,name,empty,empty,400,error
+C2213,name,null,null,400,error
+C2215,name,special char,20,400,error
+C2217,name,numeric,25,400,error
+C2219,name,boolean,boolean,400,error
+C2232,type,empty,empty,400,error
+C2233,type,null,null,400,error
+C2234,type,alphabets,6,400,error
+C2235,type,numeric,6,400,error
+C2236,type,boolean,boolean,400,error
+C2238,type,special char,6,400,error
+C2239,type,alphanumeric,6,400,error
+C2241,rules,empty,empty,400,undefined
+C2242,rules,alphabets,6,400,undefined
+C2243,rules,numeric,6,400,undefined
+C2244,rules,boolean,boolean,400,undefined
+C2245,rules,special char,6,400,undefined
+C2246,rules,alphanumeric,6,400,undefined
+C2226,description,alphabets,4001,400,error
+C2229,description,alphanumeric,4001,400,error
+C2230,description,boolean,boolean,400,error

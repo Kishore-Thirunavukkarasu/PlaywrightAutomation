@@ -1,0 +1,7 @@
+name,code,result
+Budget@#$%,BUD@#$,Special characters not allowed
+Budget with spaces,BUD SPACE,Spaces not allowed in code
+Budget_with_underscore,BUD_UNDER,Budget created successfully
+Budget-with-dash,BUD-DASH,Budget created successfully
+123NumericBudget,123BUD,Budget created successfully
+VeryLongBudgetNameThatExceedsMaximumCharacterLimitForBudgetNames,VERYLONGCODE,Name/Code exceeds character limit

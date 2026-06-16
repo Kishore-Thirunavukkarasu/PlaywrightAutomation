@@ -1,0 +1,6 @@
+measureName,productAttributeName,productAttributeValue,reward,value,tier,productMaster
+AOTMeasure,externalIdentifier,Car,1000,1000,,products
+AOTMeasure,externalIdentifier,Bus,1000,1000,,products
+AOTMeasure,externalIdentifier,Bike,1000,100,,products
+AOTMeasure,externalIdentifier,Cycle,100,100,,products
+AOTMeasure,externalIdentifier,Van,100,100,,products

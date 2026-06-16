@@ -1,0 +1,4 @@
+testid,tableName,responsecode,responsestatus
+addressPermission,addresses,201,success
+userPermission,users,201,success
+organizationPermission,organizations,201,success

@@ -1,0 +1,71 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C255,name,alphabets,256,400,error
+C256,name,empty,empty,400,error
+C257,name,null,null,400,error
+C259,name,special char,20,400,error
+C260,name,alphanumeric,25,400,error
+C261,name,numeric,25,400,error
+C263,name,boolean,boolean,400,error
+C275,website,website,256,400,error
+C276,website,empty,empty,400,error
+C277,website,null,null,400,error
+C278,website,alphabets,250,400,error
+C279,website,boolean,boolean,400,error
+C281,website,numeric,250,400,error
+C282,website,special char,250,400,error
+C283,website,alphanumeric,250,400,error
+C284,website,alphabets with space,250,400,error
+C287,address,empty,empty,400,error
+C288,address,null,null,400,error
+C290,address,boolean,boolean,400,error
+C298,tenantURL,tenantURL,256,400,error
+C299,tenantURL,empty,empty,400,error
+C300,tenantURL,null,null,400,error
+C301,tenantURL,alphabets,250,400,error
+C302,tenantURL,boolean,boolean,400,error
+C304,tenantURL,numeric,250,400,error
+C305,tenantURL,special char,250,400,error
+C306,tenantURL,alphanumeric,250,400,error
+C307,tenantURL,alphabets with space,250,400,error
+C309,state,alphabets,256,400,error
+C310,state,empty,empty,400,error
+C311,state,null,null,400,error
+C313,state,special char,20,400,error
+C314,state,alphanumeric,25,400,error
+C315,state,numeric,25,400,error
+C317,state,boolean,boolean,400,error
+C319,city,alphabets,256,400,error
+C320,city,empty,empty,400,error
+C321,city,null,null,400,error
+C323,city,special char,20,400,error
+C324,city,alphanumeric,25,400,error
+C325,city,numeric,25,400,error
+C327,city,boolean,boolean,400,error
+C329,zipCode,numeric,7,400,error
+C330,zipCode,numeric,5,400,error
+C331,zipCode,empty,empty,400,error
+C332,zipCode,null,null,400,error
+C333,zipCode,alphabets,6,400,error
+C334,zipCode,special char,6,400,error
+C335,zipCode,alphanumeric,6,400,error
+C337,zipCode,boolean,boolean,400,error
+C338,zipCode,alphanumeric special char,6,400,error
+C339,zipCode,numeric special char,6,400,error
+C340,zipCode,numeric with space,6,400,error
+C342,currency,alphabets,4,400,error
+C343,currency,alphabets,2,400,error
+C344,currency,empty,empty,400,error
+C345,currency,null,null,400,error
+C346,currency,numeric,3,400,error
+C347,currency,special char,3,400,error
+C348,currency,alphanumeric,3,400,error
+C350,currency,boolean,boolean,400,error
+C351,currency,alphanumeric special char,3,400,error
+C352,currency,numeric special char,3,400,error
+C354,country,alphabets,256,400,error
+C355,country,empty,empty,400,error
+C356,country,null,null,400,error
+C358,country,special char,20,400,error
+C359,country,alphanumeric,25,400,error
+C360,country,numeric,25,400,error
+C362,country,boolean,boolean,400,error

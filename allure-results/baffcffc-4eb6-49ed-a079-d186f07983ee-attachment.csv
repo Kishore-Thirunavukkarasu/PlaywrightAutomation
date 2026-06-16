@@ -1,0 +1,38 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C427,code,numeric,3,400,error
+C428,code,empty,zero,400,error
+C429,code,null,no,400,error
+C430,code,numeric,150,400,error
+C431,code,boolean,boolean,400,error
+C432,code,alphabets,151,400,error
+C433,code,alphabets,149,400,error
+C435,code,existing,existing,400,error
+C436,code,special char,150,400,error
+C438,name,empty,zero,400,error
+C439,name,null,no,400,error
+C440,name,numeric,150,400,error
+C441,name,boolean,boolean,400,error
+C442,name,existing,existing,400,error
+C448,description,empty,zero,400,error
+C449,description,null,no,400,error
+C451,description,boolean,boolean,400,error
+C453,description,alphabets,4001,400,error
+C455,description,existing,existing,400,error
+C458,hierarchyId,empty,zero,400,error
+C459,hierarchyId,null,no,400,error
+C460,hierarchyId,numeric,10,400,error
+C461,hierarchyId,boolean,boolean,400,error
+C462,hierarchyId,alphabets,10,400,error
+C463,hierarchyId,uuid,36,400,error
+C464,hierarchyId,alphanumeric,10,400,error
+C465,hierarchyId,existing,existing,400,error
+C466,hierarchyId,special char,10,400,error
+C468,level,empty,zero,400,error
+C469,level,null,no,400,error
+C470,level,numeric,9,400,error
+C471,level,boolean,boolean,400,error
+C472,level,numeric,0,400,error
+C473,level,alphabets,4,400,error
+C474,level,alphanumeric,3,400,error
+C475,level,existing,existing,400,error
+C476,level,special char,5,400,error

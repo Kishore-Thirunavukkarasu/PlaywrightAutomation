@@ -1,0 +1,5 @@
+testid,parameter,valuetype,responsecode,responsestatus
+1,tenantid,valid,201,Created
+2,tenantid,invalid,400,Bad Request
+3,tenantid,null,400,Bad Request
+4,tenantid,empty,400,Bad Request

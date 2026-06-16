@@ -1,0 +1,9 @@
+testid,parameter,valuetype,length,response code,responsestatus
+C310,designation,alphabets,49,200,success
+C311,designation,alphabets,256,400,error
+C312,designation,empty,empty,400,error
+C313,designation,null,null,400,error
+C315,designation,alphabets,255,400,error
+C315_1,designation,special char,20,200,success
+C315_2,designation,alphanumeric,25,200,success
+C315_3,designation,numeric,25,200,success

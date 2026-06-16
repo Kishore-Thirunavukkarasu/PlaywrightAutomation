@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,status,records
+C356,designation,valid,200,success,1
+C357,designation,invalid,400,error,0
+C358,designation,empty,400,error,0
+C359,designation,null,400,error,0

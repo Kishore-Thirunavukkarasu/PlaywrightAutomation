@@ -1,0 +1,14 @@
+testid,field,responsecode,responsestatus
+TU002,username,400,error
+TU003,title,400,error
+TU004,programId,400,error
+TU005,country,400,error
+TU006,email,400,error
+TU007,password,400,error
+TU008,gender,400,error
+TU009,mobileNumber,400,error
+TU010,timeZone,400,error
+TU011,language,400,error
+TU012,isSSO,400,error
+TU013,status,400,error
+TU014,picture,400,error

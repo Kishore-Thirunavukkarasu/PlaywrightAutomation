@@ -1,0 +1,7 @@
+Component,Functionality
+Autosuggest Field,Lists email IDs of all organisation members via custom API
+Username,Auto-populated based on selected email ID
+First Name,Auto-populated based on selected email ID
+Last Name,Auto-populated based on selected email ID
+Job Role,Auto-populated based on selected email ID
+Points Textbox,Allows entry of points to award

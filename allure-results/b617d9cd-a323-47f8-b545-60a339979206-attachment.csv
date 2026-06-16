@@ -1,0 +1,8 @@
+testid,parameter,value,length,responsecode,responsestatus
+C1610,secondaryKey,alphabets,254,201,success
+C1611,secondaryKey,alphabets,256,400,error
+C1612,secondaryKey,empty,empty,400,error
+C1613,secondaryKey,null,null,400,error
+C1614,secondaryKey,boolean,true,201,success
+C1615,secondaryKey,numeric,10,400,error
+C1616,secondaryKey,existing,existing,400,error

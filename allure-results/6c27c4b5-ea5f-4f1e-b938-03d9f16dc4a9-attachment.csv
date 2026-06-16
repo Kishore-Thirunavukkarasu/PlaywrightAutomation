@@ -1,0 +1,29 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C262,name,existing,existing,200,success
+C258,name,alphabets,255,200,success
+C274,website,website,255,200,success
+C280,website,existing,existing,200,success
+C291,address,existing,existing,200,success
+C292,address,numeric,250,200,success
+C293,address,special char,250,200,success
+C294,address,alphanumeric,250,200,success
+C295,address,alphabets with space,250,200,success
+C296,address,numeric with space,250,200,success
+C285,address,address,255,200,success
+C286,address,address,256,200,success
+C289,address,alphabets,250,200,success
+C297,tenantURL,tenantURL,255,200,success
+C303,tenantURL,existing,existing,200,success
+C308,state,alphabets,49,200,success
+C312,state,alphabets,255,200,success
+C316,state,existing,existing,200,success
+C318,city,alphabets,49,200,success
+C326,city,existing,existing,200,success
+C322,city,alphabets,255,200,success
+C328,zipCode,numeric,6,200,success
+C336,zipCode,existing,existing,200,success
+C341,currency,alphabets,3,200,success
+C349,currency,existing,existing,200,success
+C353,country,alphabets,49,200,success
+C357,country,alphabets,255,200,success
+C361,country,existing,existing,200,success

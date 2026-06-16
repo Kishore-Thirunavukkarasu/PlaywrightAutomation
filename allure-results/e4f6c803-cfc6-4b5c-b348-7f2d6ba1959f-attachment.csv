@@ -1,0 +1,7 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C2116,Rules-Hierarchy pkey,valid,-,201,success
+C2117,Rules-Hierarchy pkey,validcombination,-,400,error
+C2117,Rules-Hierarchy pkey,invalid,10,400,error
+C2118,Rules-Hierarchy pkey,null,null,400,error
+C2119,Rules-Hierarchy pkey,empty,empty,400,error
+C2115,Rules-Hierarchy pkey,existing,existing,400,error

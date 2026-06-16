@@ -1,0 +1,8 @@
+{
+  "promotionname": "Test Promotion",
+  "promotionCode": "TESTPR",
+  "promotiondescription": "Created through automation for Test",
+  "promotiontag": "Tag1",
+  "promotionprimarybillcode": "Loos",
+  "promotionsecondarybillcode": "Care"
+}

@@ -1,0 +1,4 @@
+testid,parameter,valuetype,responsecode,responsestatus
+C016,configvalue,string,201,success
+C017,configvalue,empty,201,success
+C018,configvalue,null,201,success

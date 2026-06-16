@@ -1,0 +1,7 @@
+testid,parameter,value,length,responsecode,responsestatus
+C1626,settings,array,254,201,success
+C1627,settings,object,256,400,error
+C1628,settings,empty,empty,400,error
+C1629,settings,null,null,400,error
+C1630,settings,boolean,true,201,success
+C1631,settings,numeric,10,400,error

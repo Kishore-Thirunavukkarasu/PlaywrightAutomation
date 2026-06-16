@@ -1,0 +1,6 @@
+Metric,Description
+Total Courses Assigned,Total number of courses currently assigned
+Completed Courses,Number of assigned courses marked as complete
+In-Progress Courses,Number of assigned courses started but not yet complete
+Total Time Spent on Learning,Aggregate time tracked across all LOs/courses
+Certificates Earned,Number of Certificates awarded upon completion

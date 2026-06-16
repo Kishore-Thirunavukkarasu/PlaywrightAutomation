@@ -1,0 +1,8 @@
+testid,parameter,value,length,responsecode,responsestatus
+C4312,primaryKey,alphabets,254,201,success
+C4313,primaryKey,alphabets,256,400,error
+C4314,primaryKey,empty,empty,400,error
+C4315,primaryKey,null,null,400,error
+C4316,primaryKey,boolean,true,201,success
+C4317,primaryKey,numeric,10,400,error
+C4318,primaryKey,existing,existing,400,error

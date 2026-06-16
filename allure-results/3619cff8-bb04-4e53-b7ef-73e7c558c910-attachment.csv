@@ -1,0 +1,4 @@
+Field,Description
+LO Title,Name of the learning object
+Completion Indicator,Visual cue showing if the LO is complete or not
+Start Button,Visible for any uncompleted LO to begin activity

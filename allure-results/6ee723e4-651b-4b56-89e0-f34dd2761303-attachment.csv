@@ -1,0 +1,11 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C1411,environmentname,valid,50,400,error
+C1412,environmentname,empty,empty,400,error
+C1413,environmentname,null,null,400,error
+C1414,environmentname,alphabets,50,201,success
+C1415,environmentname,numeric,50,400,error
+C1416,environmentname,boolean,boolean,400,error
+C1417,environmentname,alphanumeric,51,400,error
+C1418,environmentname,alphanumeric,49,400,error
+C1419,environmentname,existing,existing,400,error
+C1420,environmentname,special char,50,400,error

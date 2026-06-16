@@ -1,0 +1,14 @@
+testid,field,type,responsecode,responsestatus
+TU056,username,valid,200,success
+TU057,title,valid,200,success
+TU058,programId,valid,200,success
+TU059,country,valid,200,success
+TU060,email,valid,200,success
+TU061,password,valid,200,success
+TU062,gender,valid,200,success
+TU063,mobileNumber,valid,200,success
+TU064,timeZone,valid,200,success
+TU065,language,valid,200,success
+TU066,isSSO,valid,200,success
+TU067,status,valid,200,success
+TU068,picture,valid,200,success

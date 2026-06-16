@@ -1,0 +1,3 @@
+testid,usertype,responsecode,responsestatus
+C2317,empty,400,error
+C2319,null,400,error

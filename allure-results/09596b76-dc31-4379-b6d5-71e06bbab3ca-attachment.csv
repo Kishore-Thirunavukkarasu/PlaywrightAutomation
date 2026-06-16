@@ -1,0 +1,5 @@
+testid,query parameter,value,responsecode,status,records
+C352,lastname,valid,200,success,1
+C353,lastname,invalid,400,error,0
+C354,lastname,empty,400,error,0
+C355,lastname,null,400,error,0

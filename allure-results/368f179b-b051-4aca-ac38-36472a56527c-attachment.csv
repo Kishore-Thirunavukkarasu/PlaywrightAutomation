@@ -1,0 +1,4 @@
+testid,parameter,value,responsecode,responsestatus
+EA142,promotionId,invalid,400,error
+EA143,promotionId,empty,400,error
+EA144,promotionId,null,400,error

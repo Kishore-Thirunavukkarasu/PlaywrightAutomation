@@ -1,0 +1,6 @@
+testid,parameter,valuetype,length,response code,responsestatus
+C328,isActive,boolean,true,200,success
+C329,isActive,boolean,false,200,success
+C330,isActive,numeric,10,400,error
+C331,isActive,empty,empty,400,error
+C332,isActive,null,null,400,error

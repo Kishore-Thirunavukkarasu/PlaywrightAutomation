@@ -1,0 +1,17 @@
+class Context{
+    private REMOTE_CONNECTION_STRING: string;
+    private LOCAL_CONNECTION_STRING: string;
+
+    constructor(REMOTE_CONNECTION_STRING: string, LOCAL_CONNECTION_STRING: string){
+        this.REMOTE_CONNECTION_STRING = REMOTE_CONNECTION_STRING;
+        this.LOCAL_CONNECTION_STRING = LOCAL_CONNECTION_STRING;
+    }
+
+    getREMOTE_CONNECTION_STRING(){
+        return this.REMOTE_CONNECTION_STRING;
+    }
+
+    getLOCAL_CONNECTION_STRING(){
+        return this.LOCAL_CONNECTION_STRING;
+    }
+}

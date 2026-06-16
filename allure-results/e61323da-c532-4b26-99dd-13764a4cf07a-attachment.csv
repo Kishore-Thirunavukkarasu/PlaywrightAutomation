@@ -1,0 +1,21 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C064,buttoncolor,empty,empty,400,error
+C065,buttoncolor,null,null,400,error
+C068,buttoncolor,boolean,boolean,400,error
+C071,buttoncolor,existing,existing,400,error
+C072,buttoncolor,special char,255,400,error
+C074,configkey,empty,empty,400,error
+C075,configkey,null,null,400,error
+C078,configkey,boolean,boolean,400,error
+C081,configkey,existing,existing,400,error
+C082,configkey,special char,255,400,error
+C084,configvalue,empty,empty,400,error
+C085,configvalue,null,null,400,error
+C088,configvalue,boolean,boolean,400,error
+C091,configvalue,existing,existing,400,error
+C092,configvalue,special char,255,400,error
+C094,configtype,empty,empty,400,error
+C095,configtype,null,null,400,error
+C098,configtype,boolean,boolean,400,error
+C101,configtype,existing,existing,400,error
+C102,configtype,special char,255,400,error

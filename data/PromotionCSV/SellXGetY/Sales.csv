@@ -1,0 +1,2 @@
+invoiceNumber,quantity,value,salesDate,buyingOrganisation,productId,salesType,origin,sellingOrganisation,userName,recordType
+Test111,100,1000,2/11/2026,Amit Auto Distributors,Car,Org,nonEvidenceBasedClaim,Amit Auto Distributors,amitsharma0765,Add

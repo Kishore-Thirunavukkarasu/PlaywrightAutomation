@@ -1,0 +1,6 @@
+Field,Description
+Name,Course or Learning Path title
+Type,"Course" or "Learning Path" badge/tag
+Short Overview,Description or summary of the offering
+Match Reason,Why it is recommended (eg "matches your goals popular for this skill")
+Action Button,Button to view details enroll or save/bookmark

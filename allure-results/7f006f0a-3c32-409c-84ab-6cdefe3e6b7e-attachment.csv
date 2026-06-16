@@ -1,0 +1,11 @@
+testid,parameter,valuetype,length,responsecode,responsestatus
+C1401,countrycode,valid,2,201,success
+C1402,countrycode,empty,empty,400,error
+C1403,countrycode,null,null,400,error
+C1404,countrycode,numeric,2,400,error
+C1405,countrycode,boolean,boolean,400,error
+C1406,countrycode,alphabets,3,400,error
+C1407,countrycode,alphabets,1,400,error
+C1408,countrycode,alphanumeric,2,400,error
+C1409,countrycode,existing,existing,400,error
+C1410,countrycode,special char,2,400,error

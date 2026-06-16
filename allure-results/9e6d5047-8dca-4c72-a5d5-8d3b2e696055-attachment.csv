@@ -1,0 +1,4 @@
+testid,valuetype,responsecode,responsestatus
+C2320,currentdate,200,success
+C2321,pastdate,400,error
+C2322,futuredate,400,success
